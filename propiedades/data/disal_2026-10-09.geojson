@@ -3,26 +3,28 @@
   "metadata": {
     "fecha": "2026-10-09",
     "numeracion_verificada": false,
-    "nota": "10 puntos de referencia y 3 unidades sin coordenada. No equivale a validación predial por numeración.",
-    "google_sheet": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+    "nota": "13 inmuebles; 9 puntos de referencia y 4 sin ubicación corroborada. La coincidencia de una dirección OSM no valida por sí sola el rol o el local interior.",
+    "google_sheet": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+    "fecha_revision": "2026-10-09",
+    "fuente_nombres": "https://www.saludstgo.cl/centros-de-atencion/"
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
         "id": "DISAL-001",
-        "nombre": "Matta Sur — inmueble Chiloé 1799",
+        "nombre": "CESFAM Matta Sur — inmueble Chiloé 1799",
         "direccion": "Chiloé 1799",
         "rol": "3469-6",
         "propiedad": "Ilustre Municipalidad de Santiago",
         "numero_decreto": "5599",
         "administracion": "Dirección de Salud (DISAL)",
         "fuente": "SALUD.png; Carpeta Chiloé 1799.pdf; Carpeta Matta Sur - Chiloé 1799.pdf",
-        "latitud": -33.46925,
-        "longitud": -70.64577,
-        "estado_georreferencia": "Referencia del complejo Matta Sur; acceso Chiloé pendiente",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "Carpetas repetidas del mismo inmueble. Dirección catastral Chiloé 1799; CESFAM actual Ñuble 945. Punto del complejo OSM way 578883862, no del acceso exacto.",
+        "latitud": -33.46913440714285,
+        "longitud": -70.64589982857143,
+        "estado_georreferencia": "Referencia del CESFAM en Ñuble 945; acceso catastral Chiloé 1799 pendiente",
+        "verificacion_numeracion": "OSM way 909201233 identifica CESFAM Matta Sur en Ñuble 945. Chiloé 1799 tiene dos referencias OSM distintas (escuela y nodo de dirección): acceso del inmueble por confirmar.",
+        "observaciones": "Carpetas repetidas del mismo inmueble. Dirección catastral Chiloé 1799; CESFAM actual Ñuble 945. Punto del complejo OSM way 578883862, no del acceso exacto. Revisión 09-10-2026: OSM way 909201233 identifica CESFAM Matta Sur en Ñuble 945. Chiloé 1799 tiene dos referencias OSM distintas (escuela y nodo de dirección): acceso del inmueble por confirmar.",
         "rol_decreto": "",
         "fecha_decreto": "2022-08-18",
         "url_fuente": "https://mapcarta.com/es/W578883862",
@@ -31,20 +33,34 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "Matta Sur — inmueble Chiloé 1799",
-        "beneficiario": "Matta Sur — inmueble Chiloé 1799",
+        "destino": "CESFAM Matta Sur — inmueble Chiloé 1799",
+        "beneficiario": "CESFAM Matta Sur — inmueble Chiloé 1799",
         "propietario_administracion": "Ilustre Municipalidad de Santiago / Dirección de Salud (DISAL)",
-        "geo_precision": "Referencia del complejo Matta Sur; acceso Chiloé pendiente",
-        "poligono_ref": "Referencia del complejo Matta Sur; acceso Chiloé pendiente",
-        "estado": "Numeración pendiente de validación",
+        "geo_precision": "Referencia del CESFAM en Ñuble 945; acceso catastral Chiloé 1799 pendiente",
+        "poligono_ref": "Referencia del CESFAM en Ñuble 945; acceso catastral Chiloé 1799 pendiente",
+        "estado": "Referencia del CESFAM en Ñuble 945; acceso catastral Chiloé 1799 pendiente",
         "regimen": "Ilustre Municipalidad de Santiago",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "Ñuble 945",
+        "direccion_mapa": "Ñuble 945",
+        "nombre_historico": "Matta Sur — inmueble Chiloé 1799",
+        "url_nombre": "https://www.saludstgo.cl/centros-de-atencion/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/way/909201233",
+          "https://www.openstreetmap.org/node/906425422",
+          "https://www.openstreetmap.org/node/1262409587"
+        ],
+        "fecha_revision": "2026-10-09",
+        "coordenadas_anteriores": [
+          -70.64577,
+          -33.46925
+        ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.64577,
-          -33.46925
+          -70.64589982857143,
+          -33.46913440714285
         ]
       }
     },
@@ -59,11 +75,11 @@
         "numero_decreto": "5599",
         "administracion": "Dirección de Salud (DISAL)",
         "fuente": "SALUD.png; Carpeta Arauco - Mirador 1599.pdf, p. 1; Carpeta El Mirador N°1599.pdf, pp. 3 y 13",
-        "latitud": -33.46815,
-        "longitud": -70.67023,
-        "estado_georreferencia": "Recinto identificado en OSM; número confirmado por Salud Santiago",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "OSM node 4398716397. La base est_salud_2025 conserva Sepúlveda Leyton 3288: se prioriza la dirección municipal vigente El Mirador 1599. Carpetas duplicadas conciliadas.",
+        "latitud": -33.4681441,
+        "longitud": -70.6701787,
+        "estado_georreferencia": "Punto de dirección OSM El Mirador 1599",
+        "verificacion_numeracion": "Número 1599 corroborado por nodo OSM 1252487243 y directorio municipal; el punto del CESFAM se encuentra a menos de 5 m.",
+        "observaciones": "OSM node 4398716397. La base est_salud_2025 conserva Sepúlveda Leyton 3288: se prioriza la dirección municipal vigente El Mirador 1599. Carpetas duplicadas conciliadas. Revisión 09-10-2026: Número 1599 corroborado por nodo OSM 1252487243 y directorio municipal; el punto del CESFAM se encuentra a menos de 5 m.",
         "rol_decreto": "",
         "fecha_decreto": "2022-08-18",
         "url_fuente": "https://mapcarta.com/N4398716397",
@@ -75,17 +91,29 @@
         "destino": "CESFAM Arauco",
         "beneficiario": "CESFAM Arauco",
         "propietario_administracion": "Ilustre Municipalidad de Santiago / Dirección de Salud (DISAL)",
-        "geo_precision": "Recinto identificado en OSM; número confirmado por Salud Santiago",
-        "poligono_ref": "Recinto identificado en OSM; número confirmado por Salud Santiago",
-        "estado": "Numeración pendiente de validación",
+        "geo_precision": "Punto de dirección OSM El Mirador 1599",
+        "poligono_ref": "Punto de dirección OSM El Mirador 1599",
+        "estado": "Punto de dirección OSM El Mirador 1599",
         "regimen": "Ilustre Municipalidad de Santiago",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "Av. El Mirador 1599",
+        "direccion_mapa": "El Mirador 1599",
+        "url_nombre": "https://www.saludstgo.cl/centros-de-atencion/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/1252487243",
+          "https://www.openstreetmap.org/node/4398716397"
+        ],
+        "fecha_revision": "2026-10-09",
+        "coordenadas_anteriores": [
+          -70.67023,
+          -33.46815
+        ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.67023,
-          -33.46815
+          -70.6701787,
+          -33.4681441
         ]
       }
     },
@@ -93,7 +121,7 @@
       "type": "Feature",
       "properties": {
         "id": "DISAL-003",
-        "nombre": "CESFAM Ignacio Domeyko — Cueto 533–535",
+        "nombre": "CESFAM Ignacio Domeyko — inmueble Cueto 533–535",
         "direccion": "Cueto 533–535",
         "rol": "269-8",
         "propiedad": "Ilustre Municipalidad de Santiago",
@@ -103,8 +131,8 @@
         "latitud": null,
         "longitud": null,
         "estado_georreferencia": "Pendiente: no se asignó un punto sin corroboración",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "La carpeta y certificado identifican 269-8; el decreto dice 269-9. Se mantiene la discrepancia para revisión. No se reutiliza el punto de Cueto 543 para este predio.",
+        "verificacion_numeracion": "Cueto 543 sí existe en OSM; no hay punto individual corroborado para 533–535. No se reutiliza la coordenada de la sede.",
+        "observaciones": "La carpeta y certificado identifican 269-8; el decreto dice 269-9. Se mantiene la discrepancia para revisión. No se reutiliza el punto de Cueto 543 para este predio. Revisión 09-10-2026: Cueto 543 sí existe en OSM; no hay punto individual corroborado para 533–535. No se reutiliza la coordenada de la sede.",
         "rol_decreto": "269-9",
         "fecha_decreto": "2022-08-18",
         "url_fuente": "https://www.saludstgo.cl/centros-de-atencion/",
@@ -113,14 +141,20 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "CESFAM Ignacio Domeyko — Cueto 533–535",
-        "beneficiario": "CESFAM Ignacio Domeyko — Cueto 533–535",
+        "destino": "CESFAM Ignacio Domeyko — inmueble Cueto 533–535",
+        "beneficiario": "CESFAM Ignacio Domeyko — inmueble Cueto 533–535",
         "propietario_administracion": "Ilustre Municipalidad de Santiago / Dirección de Salud (DISAL)",
         "geo_precision": "Pendiente: no se asignó un punto sin corroboración",
         "poligono_ref": "Pendiente: no se asignó un punto sin corroboración",
-        "estado": "Numeración pendiente de validación",
+        "estado": "Pendiente: no se asignó un punto sin corroboración",
         "regimen": "Ilustre Municipalidad de Santiago",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "Cueto 543 (sede del CESFAM)",
+        "url_nombre": "https://www.saludstgo.cl/centros-de-atencion/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/3481174039"
+        ],
+        "fecha_revision": "2026-10-09"
       },
       "geometry": null
     },
@@ -128,18 +162,18 @@
       "type": "Feature",
       "properties": {
         "id": "DISAL-004",
-        "nombre": "CESFAM Ignacio Domeyko — Cueto 541–549",
+        "nombre": "CESFAM Ignacio Domeyko — inmueble Cueto 541–549",
         "direccion": "Cueto 541, 547 y 549",
         "rol": "269-9; 269-31",
         "propiedad": "Ilustre Municipalidad de Santiago",
         "numero_decreto": "5599",
         "administracion": "Dirección de Salud (DISAL)",
         "fuente": "SALUD.png; Carpeta Cueto 543.pdf, p. 11; Carpeta Domeyko - Cueto 543.pdf",
-        "latitud": -33.43892,
-        "longitud": -70.67247,
-        "estado_georreferencia": "Referencia CESFAM Cueto 543; subpredios del rango pendientes",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "Informe de dominio identifica rango 541–549 y roles 269-9, 269-31; decreto sólo 269-9. Coordenada de est_salud_2025 para Cueto 543, no comprobación predial.",
+        "latitud": -33.4387766,
+        "longitud": -70.6724005,
+        "estado_georreferencia": "Punto OSM Cueto 543, dentro del rango catastral 541–549",
+        "verificacion_numeracion": "Número 543 corroborado por nodo OSM 3481174039 y directorio municipal, entre referencias Cueto 517 y 601. Los subpredios 541, 547 y 549 requieren validación individual por rol.",
+        "observaciones": "Informe de dominio identifica rango 541–549 y roles 269-9, 269-31; decreto sólo 269-9. Coordenada de est_salud_2025 para Cueto 543, no comprobación predial. Revisión 09-10-2026: Número 543 corroborado por nodo OSM 3481174039 y directorio municipal, entre referencias Cueto 517 y 601. Los subpredios 541, 547 y 549 requieren validación individual por rol.",
         "rol_decreto": "269-9",
         "fecha_decreto": "2022-08-18",
         "url_fuente": "https://www.saludstgo.cl/centros-de-atencion/",
@@ -148,20 +182,33 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "CESFAM Ignacio Domeyko — Cueto 541–549",
-        "beneficiario": "CESFAM Ignacio Domeyko — Cueto 541–549",
+        "destino": "CESFAM Ignacio Domeyko — inmueble Cueto 541–549",
+        "beneficiario": "CESFAM Ignacio Domeyko — inmueble Cueto 541–549",
         "propietario_administracion": "Ilustre Municipalidad de Santiago / Dirección de Salud (DISAL)",
-        "geo_precision": "Referencia CESFAM Cueto 543; subpredios del rango pendientes",
-        "poligono_ref": "Referencia CESFAM Cueto 543; subpredios del rango pendientes",
-        "estado": "Numeración pendiente de validación",
+        "geo_precision": "Punto OSM Cueto 543, dentro del rango catastral 541–549",
+        "poligono_ref": "Punto OSM Cueto 543, dentro del rango catastral 541–549",
+        "estado": "Punto OSM Cueto 543, dentro del rango catastral 541–549",
         "regimen": "Ilustre Municipalidad de Santiago",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "Cueto 543",
+        "direccion_mapa": "Cueto 543",
+        "url_nombre": "https://www.saludstgo.cl/centros-de-atencion/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/3481174039",
+          "https://www.openstreetmap.org/node/1264230035",
+          "https://www.openstreetmap.org/node/1264230014"
+        ],
+        "fecha_revision": "2026-10-09",
+        "coordenadas_anteriores": [
+          -70.67247,
+          -33.43892
+        ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.67247,
-          -33.43892
+          -70.6724005,
+          -33.4387766
         ]
       }
     },
@@ -169,7 +216,7 @@
       "type": "Feature",
       "properties": {
         "id": "DISAL-005",
-        "nombre": "Domeyko — inmueble García Reyes 538–554",
+        "nombre": "Inmueble asociado a CESFAM Ignacio Domeyko — García Reyes 538–554",
         "direccion": "García Reyes 538, 552 y 554",
         "rol": "269-19; 209-20 (según decreto)",
         "propiedad": "Municipal según catastro del decreto; título por confirmar",
@@ -179,8 +226,8 @@
         "latitud": null,
         "longitud": null,
         "estado_georreferencia": "Pendiente: no se asignó un punto sin corroboración",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "El decreto consigna 269-19 y 209-20. No se corrige 209-20 a 269-20 sin antecedente. Nombre asociado al complejo Domeyko, no una denominación individual acreditada.",
+        "verificacion_numeracion": "Rango 538–554 situado entre las referencias OSM García Reyes 500 y 600; falta corroborar el acceso y los roles. Sin punto asignado.",
+        "observaciones": "El decreto consigna 269-19 y 209-20. No se corrige 209-20 a 269-20 sin antecedente. Nombre asociado al complejo Domeyko, no una denominación individual acreditada. Revisión 09-10-2026: Rango 538–554 situado entre las referencias OSM García Reyes 500 y 600; falta corroborar el acceso y los roles. Sin punto asignado.",
         "rol_decreto": "269-19; 209-20",
         "fecha_decreto": "2022-08-18",
         "url_fuente": "https://www.saludstgo.cl/centros-de-atencion/",
@@ -189,14 +236,21 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "Domeyko — inmueble García Reyes 538–554",
-        "beneficiario": "Domeyko — inmueble García Reyes 538–554",
+        "destino": "Inmueble asociado a CESFAM Ignacio Domeyko — García Reyes 538–554",
+        "beneficiario": "Inmueble asociado a CESFAM Ignacio Domeyko — García Reyes 538–554",
         "propietario_administracion": "Municipal según catastro del decreto; título por confirmar / Dirección de Salud (DISAL)",
         "geo_precision": "Pendiente: no se asignó un punto sin corroboración",
         "poligono_ref": "Pendiente: no se asignó un punto sin corroboración",
-        "estado": "Numeración pendiente de validación",
+        "estado": "Pendiente: no se asignó un punto sin corroboración",
         "regimen": "Municipal según catastro del decreto; título por confirmar",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "Cueto 543 (sede del CESFAM)",
+        "url_nombre": "https://www.saludstgo.cl/centros-de-atencion/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/1264229757",
+          "https://www.openstreetmap.org/node/1264229463"
+        ],
+        "fecha_revision": "2026-10-09"
       },
       "geometry": null
     },
@@ -204,7 +258,7 @@
       "type": "Feature",
       "properties": {
         "id": "DISAL-006",
-        "nombre": "Domeyko / SAPU — inmueble García Reyes 556–574",
+        "nombre": "SAPU CESFAM Ignacio Domeyko — inmueble García Reyes 556–574",
         "direccion": "García Reyes 556–574",
         "rol": "269-22; 269-21",
         "propiedad": "Municipal según catastro del decreto; título por confirmar",
@@ -214,8 +268,8 @@
         "latitud": null,
         "longitud": null,
         "estado_georreferencia": "Pendiente: no se asignó un punto sin corroboración",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "Salud Santiago identifica SAPU en García Reyes 562. Falta comprobar ubicación de ambos roles dentro del rango 556–574. No se transfiere el punto de Cueto 543.",
+        "verificacion_numeracion": "Dirección de atención 562 confirmada por Salud Santiago; rango entre referencias OSM García Reyes 500 y 600. Falta punto del acceso exacto y delimitación de roles; no se usa Cueto 543.",
+        "observaciones": "Salud Santiago identifica SAPU en García Reyes 562. Falta comprobar ubicación de ambos roles dentro del rango 556–574. No se transfiere el punto de Cueto 543. Revisión 09-10-2026: Dirección de atención 562 confirmada por Salud Santiago; rango entre referencias OSM García Reyes 500 y 600. Falta punto del acceso exacto y delimitación de roles; no se usa Cueto 543.",
         "rol_decreto": "269-22; 269-21",
         "fecha_decreto": "2022-08-18",
         "url_fuente": "https://www.saludstgo.cl/centros-de-atencion/",
@@ -224,14 +278,21 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "Domeyko / SAPU — inmueble García Reyes 556–574",
-        "beneficiario": "Domeyko / SAPU — inmueble García Reyes 556–574",
+        "destino": "SAPU CESFAM Ignacio Domeyko — inmueble García Reyes 556–574",
+        "beneficiario": "SAPU CESFAM Ignacio Domeyko — inmueble García Reyes 556–574",
         "propietario_administracion": "Municipal según catastro del decreto; título por confirmar / Dirección de Salud (DISAL)",
         "geo_precision": "Pendiente: no se asignó un punto sin corroboración",
         "poligono_ref": "Pendiente: no se asignó un punto sin corroboración",
-        "estado": "Numeración pendiente de validación",
+        "estado": "Pendiente: no se asignó un punto sin corroboración",
         "regimen": "Municipal según catastro del decreto; título por confirmar",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "García Reyes 562",
+        "url_nombre": "https://www.saludstgo.cl/centros-de-atencion/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/1264229757",
+          "https://www.openstreetmap.org/node/1264229463"
+        ],
+        "fecha_revision": "2026-10-09"
       },
       "geometry": null
     },
@@ -239,18 +300,18 @@
       "type": "Feature",
       "properties": {
         "id": "DISAL-007",
-        "nombre": "CESFAM Padre Orellana — anexo",
+        "nombre": "CESFAM Padre Orellana — anexos 1 y 2",
         "direccion": "Padre Orellana 1706–1708",
         "rol": "3392-39",
         "propiedad": "Ilustre Municipalidad de Santiago",
         "numero_decreto": "5599",
         "administracion": "Dirección de Salud (DISAL)",
         "fuente": "SALUD.png; Carpeta Padre Orellana 1706.pdf, p. 3",
-        "latitud": -33.46637,
-        "longitud": -70.62973,
-        "estado_georreferencia": "Dirección 1708 coincidente en OSM",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "OSM node 11172535584, dirección 1708. Se descarta coordenada est_salud_2025 (-33.468114,-70.642536) por corresponder a otro sector. Sede principal actual Santa Rosa 1727.",
+        "latitud": -33.4663653,
+        "longitud": -70.6297342,
+        "estado_georreferencia": "Punto OSM Padre Orellana 1708, dentro del rango catastral 1706–1708",
+        "verificacion_numeracion": "Número 1708 corroborado por nodo OSM 11172535584 y directorio municipal. Cuadra entre referencias 1600 y 1798.",
+        "observaciones": "OSM node 11172535584, dirección 1708. Se descarta coordenada est_salud_2025 (-33.468114,-70.642536) por corresponder a otro sector. Sede principal actual Santa Rosa 1727. Revisión 09-10-2026: Número 1708 corroborado por nodo OSM 11172535584 y directorio municipal. Cuadra entre referencias 1600 y 1798.",
         "rol_decreto": "",
         "fecha_decreto": "2022-08-18",
         "url_fuente": "https://mapcarta.com/N11172535584",
@@ -259,20 +320,33 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "CESFAM Padre Orellana — anexo",
-        "beneficiario": "CESFAM Padre Orellana — anexo",
+        "destino": "CESFAM Padre Orellana — anexos 1 y 2",
+        "beneficiario": "CESFAM Padre Orellana — anexos 1 y 2",
         "propietario_administracion": "Ilustre Municipalidad de Santiago / Dirección de Salud (DISAL)",
-        "geo_precision": "Dirección 1708 coincidente en OSM",
-        "poligono_ref": "Dirección 1708 coincidente en OSM",
-        "estado": "Numeración pendiente de validación",
+        "geo_precision": "Punto OSM Padre Orellana 1708, dentro del rango catastral 1706–1708",
+        "poligono_ref": "Punto OSM Padre Orellana 1708, dentro del rango catastral 1706–1708",
+        "estado": "Punto OSM Padre Orellana 1708, dentro del rango catastral 1706–1708",
         "regimen": "Ilustre Municipalidad de Santiago",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "Padre Orellana 1708 (anexos); Santa Rosa 1727 (sede principal)",
+        "direccion_mapa": "Padre Orellana 1708",
+        "url_nombre": "https://www.saludstgo.cl/centros-de-atencion/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/11172535584",
+          "https://www.openstreetmap.org/node/1243845018",
+          "https://www.openstreetmap.org/node/1243845019"
+        ],
+        "fecha_revision": "2026-10-09",
+        "coordenadas_anteriores": [
+          -70.62973,
+          -33.46637
+        ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.62973,
-          -33.46637
+          -70.6297342,
+          -33.4663653
         ]
       }
     },
@@ -280,18 +354,18 @@
       "type": "Feature",
       "properties": {
         "id": "DISAL-008",
-        "nombre": "Atención primaria Benjamín Viel — San Ignacio",
+        "nombre": "Unidad de Atención Primaria Oftalmológica (UAPO) — San Ignacio 1217",
         "direccion": "San Ignacio 1217",
         "rol": "3089-2",
         "propiedad": "Ilustre Municipalidad de Santiago",
         "numero_decreto": "5599",
         "administracion": "Dirección de Salud (DISAL)",
         "fuente": "SALUD.png; Carpeta San Ignacio 1217.pdf, pp. 1 y 3",
-        "latitud": -33.46174,
-        "longitud": -70.6555,
-        "estado_georreferencia": "Dirección 1217 coincidente en OSM",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "Nombre de ficha de la carpeta: atención primaria Benjamín Viel. OSM node 4406278889 conserva nombre Doctor Benjamín Cousiño y dirección 1217. Nombre distinto documentado; numeración visual pendiente.",
+        "latitud": -33.4617374,
+        "longitud": -70.6554967,
+        "estado_georreferencia": "Punto OSM San Ignacio de Loyola 1217; nombre vigente según Salud Santiago",
+        "verificacion_numeracion": "Número 1217 corroborado por nodo OSM 4406278889 y directorio municipal; entre referencias 1199 y 1235. El nombre OSM es histórico y no se usa como nombre vigente.",
+        "observaciones": "Nombre de ficha de la carpeta: atención primaria Benjamín Viel. OSM node 4406278889 conserva nombre Doctor Benjamín Cousiño y dirección 1217. Nombre distinto documentado; numeración visual pendiente. Revisión 09-10-2026: Número 1217 corroborado por nodo OSM 4406278889 y directorio municipal; entre referencias 1199 y 1235. El nombre OSM es histórico y no se usa como nombre vigente.",
         "rol_decreto": "",
         "fecha_decreto": "2022-08-18",
         "url_fuente": "https://mapcarta.com/N4406278889",
@@ -300,20 +374,34 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "Atención primaria Benjamín Viel — San Ignacio",
-        "beneficiario": "Atención primaria Benjamín Viel — San Ignacio",
+        "destino": "Unidad de Atención Primaria Oftalmológica (UAPO) — San Ignacio 1217",
+        "beneficiario": "Unidad de Atención Primaria Oftalmológica (UAPO) — San Ignacio 1217",
         "propietario_administracion": "Ilustre Municipalidad de Santiago / Dirección de Salud (DISAL)",
-        "geo_precision": "Dirección 1217 coincidente en OSM",
-        "poligono_ref": "Dirección 1217 coincidente en OSM",
-        "estado": "Numeración pendiente de validación",
+        "geo_precision": "Punto OSM San Ignacio de Loyola 1217; nombre vigente según Salud Santiago",
+        "poligono_ref": "Punto OSM San Ignacio de Loyola 1217; nombre vigente según Salud Santiago",
+        "estado": "Punto OSM San Ignacio de Loyola 1217; nombre vigente según Salud Santiago",
         "regimen": "Ilustre Municipalidad de Santiago",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "nombre_historico": "Atención primaria Benjamín Viel; OSM: Doctor Benjamín Cousiño",
+        "direccion_atencion": "San Ignacio de Loyola 1217",
+        "direccion_mapa": "San Ignacio de Loyola 1217",
+        "url_nombre": "https://www.saludstgo.cl/atencion-oftalmologica-uapo/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/4406278889",
+          "https://www.openstreetmap.org/node/1262400418",
+          "https://www.openstreetmap.org/node/1262400362"
+        ],
+        "fecha_revision": "2026-10-09",
+        "coordenadas_anteriores": [
+          -70.6555,
+          -33.46174
+        ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6555,
-          -33.46174
+          -70.6554967,
+          -33.4617374
         ]
       }
     },
@@ -321,7 +409,7 @@
       "type": "Feature",
       "properties": {
         "id": "DISAL-009",
-        "nombre": "EMB Rojas Jiménez / inmueble de salud",
+        "nombre": "Estación Médica de Barrio Rojas Jiménez (San Borja)",
         "direccion": "Rojas Jiménez 21",
         "rol": "607-26",
         "propiedad": "Municipal según catastro del decreto; título por confirmar",
@@ -330,9 +418,9 @@
         "fuente": "SALUD.png; Salud Santiago, Rojas Jiménez; est_salud_2025.xlsx",
         "latitud": -33.447963,
         "longitud": -70.632701,
-        "estado_georreferencia": "Referencia est_salud_2025; número confirmado por Salud Santiago",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "La base est_salud_2025 lo denomina COSAM Santiago; Salud Santiago lo identifica como EMB Rojas Jiménez. Uso actual individual por confirmar.",
+        "estado_georreferencia": "Referencia est_salud_2025; número 21 municipal, sin etiqueta numérica OSM",
+        "verificacion_numeracion": "Nombre y número 21 confirmados por Salud Santiago. OSM identifica la calle Rojas Jimenez, pero no contiene etiqueta de número 21 en este sector: ubicación predial pendiente.",
+        "observaciones": "La base est_salud_2025 lo denomina COSAM Santiago; Salud Santiago lo identifica como EMB Rojas Jiménez. Uso actual individual por confirmar. Revisión 09-10-2026: Nombre y número 21 confirmados por Salud Santiago. OSM identifica la calle Rojas Jimenez, pero no contiene etiqueta de número 21 en este sector: ubicación predial pendiente.",
         "rol_decreto": "",
         "fecha_decreto": "2022-08-18",
         "url_fuente": "https://www.saludstgo.cl/rojas-jimenez/",
@@ -341,14 +429,22 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "EMB Rojas Jiménez / inmueble de salud",
-        "beneficiario": "EMB Rojas Jiménez / inmueble de salud",
+        "destino": "Estación Médica de Barrio Rojas Jiménez (San Borja)",
+        "beneficiario": "Estación Médica de Barrio Rojas Jiménez (San Borja)",
         "propietario_administracion": "Municipal según catastro del decreto; título por confirmar / Dirección de Salud (DISAL)",
-        "geo_precision": "Referencia est_salud_2025; número confirmado por Salud Santiago",
-        "poligono_ref": "Referencia est_salud_2025; número confirmado por Salud Santiago",
-        "estado": "Numeración pendiente de validación",
+        "geo_precision": "Referencia est_salud_2025; número 21 municipal, sin etiqueta numérica OSM",
+        "poligono_ref": "Referencia est_salud_2025; número 21 municipal, sin etiqueta numérica OSM",
+        "estado": "Referencia est_salud_2025; número 21 municipal, sin etiqueta numérica OSM",
         "regimen": "Municipal según catastro del decreto; título por confirmar",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "nombre_historico": "COSAM Santiago en est_salud_2025",
+        "direccion_atencion": "Alberto Rojas Jiménez 21",
+        "direccion_mapa": "Alberto Rojas Jiménez 21 (referencia de inventario)",
+        "url_nombre": "https://www.saludstgo.cl/centros-de-atencion/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/way/29213025"
+        ],
+        "fecha_revision": "2026-10-09"
       },
       "geometry": {
         "type": "Point",
@@ -372,8 +468,8 @@
         "latitud": -33.436237060853976,
         "longitud": -70.65021232647881,
         "estado_georreferencia": "Referencia del local en catastro municipal; cuadra pendiente",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "Sitio municipal actual identifica local 21. Coordenada restituida del catastro municipal por dirección/rol; no se certifica posición interior de la galería. No incluido en decreto 5599.",
+        "verificacion_numeracion": "Punto coherente con cuadra de Santo Domingo 904–1016 y 21 de Mayo 500–600. Número 916/local 21 confirmado por Municipalidad; posición interior del local pendiente.",
+        "observaciones": "Sitio municipal actual identifica local 21. Coordenada restituida del catastro municipal por dirección/rol; no se certifica posición interior de la galería. No incluido en decreto 5599. Revisión 09-10-2026: Punto coherente con cuadra de Santo Domingo 904–1016 y 21 de Mayo 500–600. Número 916/local 21 confirmado por Municipalidad; posición interior del local pendiente.",
         "rol_decreto": "",
         "fecha_decreto": "",
         "url_fuente": "https://www.munistgo.cl/boticas/",
@@ -387,9 +483,19 @@
         "propietario_administracion": "Ilustre Municipalidad de Santiago / Dirección de Salud (DISAL)",
         "geo_precision": "Referencia del local en catastro municipal; cuadra pendiente",
         "poligono_ref": "Referencia del local en catastro municipal; cuadra pendiente",
-        "estado": "Numeración pendiente de validación",
+        "estado": "Referencia del local en catastro municipal; cuadra pendiente",
         "regimen": "Ilustre Municipalidad de Santiago",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "Santo Domingo 916, local 21",
+        "direccion_mapa": "Santo Domingo 916 / 21 de Mayo 556 (referencia catastral)",
+        "url_nombre": "https://www.munistgo.cl/boticas/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/1278535821",
+          "https://www.openstreetmap.org/node/1278535819",
+          "https://www.openstreetmap.org/node/1279504445",
+          "https://www.openstreetmap.org/node/1279504449"
+        ],
+        "fecha_revision": "2026-10-09"
       },
       "geometry": {
         "type": "Point",
@@ -403,7 +509,7 @@
       "type": "Feature",
       "properties": {
         "id": "DISAL-011",
-        "nombre": "Botica Nº1 Dra. Eloísa Díaz — local 23 de la carpeta",
+        "nombre": "Local 23 asociado a carpeta Botica Nº1 Dra. Eloísa Díaz",
         "direccion": "Santo Domingo 916 / 21 de Mayo 556, local 23",
         "rol": "182-27",
         "propiedad": "Ilustre Municipalidad de Santiago",
@@ -413,8 +519,8 @@
         "latitud": -33.43643503145808,
         "longitud": -70.65010126047657,
         "estado_georreferencia": "Referencia del local en catastro municipal; cuadra pendiente",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "La portada dice local 23 y certificado SII vincula 182-27 con 21 de Mayo 556 LC23. Uso actual de este local por confirmar: sitio municipal informa atención en local 21. No incluido en decreto 5599.",
+        "verificacion_numeracion": "Punto coherente con cuadra 21 de Mayo 500–600. No se identifica el local interior en OSM ni se confirma atención actual en local 23.",
+        "observaciones": "La portada dice local 23 y certificado SII vincula 182-27 con 21 de Mayo 556 LC23. Uso actual de este local por confirmar: sitio municipal informa atención en local 21. No incluido en decreto 5599. Revisión 09-10-2026: Punto coherente con cuadra 21 de Mayo 500–600. No se identifica el local interior en OSM ni se confirma atención actual en local 23.",
         "rol_decreto": "",
         "fecha_decreto": "",
         "url_fuente": "https://www.munistgo.cl/boticas/",
@@ -423,14 +529,22 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "Botica Nº1 Dra. Eloísa Díaz — local 23 de la carpeta",
-        "beneficiario": "Botica Nº1 Dra. Eloísa Díaz — local 23 de la carpeta",
+        "destino": "Local 23 asociado a carpeta Botica Nº1 Dra. Eloísa Díaz",
+        "beneficiario": "Local 23 asociado a carpeta Botica Nº1 Dra. Eloísa Díaz",
         "propietario_administracion": "Ilustre Municipalidad de Santiago / Dirección de Salud (DISAL)",
         "geo_precision": "Referencia del local en catastro municipal; cuadra pendiente",
         "poligono_ref": "Referencia del local en catastro municipal; cuadra pendiente",
-        "estado": "Numeración pendiente de validación",
+        "estado": "Referencia del local en catastro municipal; cuadra pendiente",
         "regimen": "Ilustre Municipalidad de Santiago",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "Uso actual del local 23 por confirmar; botica atiende en local 21",
+        "direccion_mapa": "21 de Mayo 556, local 23 (referencia catastral)",
+        "url_nombre": "https://www.munistgo.cl/boticas/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/1279504445",
+          "https://www.openstreetmap.org/node/1279504449"
+        ],
+        "fecha_revision": "2026-10-09"
       },
       "geometry": {
         "type": "Point",
@@ -453,9 +567,9 @@
         "fuente": "Carpeta Botica 2 - Carmen 1200.pdf, pp. 1, 11 y 25",
         "latitud": -33.45973,
         "longitud": -70.63835,
-        "estado_georreferencia": "Inmueble Carmen 1200 coincidente en OSM",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "Referencia del ex Asilo Hermanitas de los Pobres, OSM way 637360967; no local interior. Anexo p. 27 menciona 3049-18: discrepancia, no asignado sin título. No incluido en decreto 5599.",
+        "estado_georreferencia": "Referencia dentro del inmueble OSM Carmen 1200; local interior pendiente",
+        "verificacion_numeracion": "Número 1200 corroborado por OSM ways 637360967 y 637360969 y Municipalidad. El punto identifica el recinto, no el acceso exacto de la botica.",
+        "observaciones": "Referencia del ex Asilo Hermanitas de los Pobres, OSM way 637360967; no local interior. Anexo p. 27 menciona 3049-18: discrepancia, no asignado sin título. No incluido en decreto 5599. Revisión 09-10-2026: Número 1200 corroborado por OSM ways 637360967 y 637360969 y Municipalidad. El punto identifica el recinto, no el acceso exacto de la botica.",
         "rol_decreto": "",
         "fecha_decreto": "",
         "url_fuente": "https://www.munistgo.cl/boticas/",
@@ -467,11 +581,19 @@
         "destino": "Botica Nº2 Griselda Hinojosa",
         "beneficiario": "Botica Nº2 Griselda Hinojosa",
         "propietario_administracion": "Ilustre Municipalidad de Santiago / Dirección de Salud (DISAL)",
-        "geo_precision": "Inmueble Carmen 1200 coincidente en OSM",
-        "poligono_ref": "Inmueble Carmen 1200 coincidente en OSM",
-        "estado": "Numeración pendiente de validación",
+        "geo_precision": "Referencia dentro del inmueble OSM Carmen 1200; local interior pendiente",
+        "poligono_ref": "Referencia dentro del inmueble OSM Carmen 1200; local interior pendiente",
+        "estado": "Referencia dentro del inmueble OSM Carmen 1200; local interior pendiente",
         "regimen": "Ilustre Municipalidad de Santiago",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "Carmen 1200, ex Asilo Hermanitas de los Pobres",
+        "direccion_mapa": "Carmen 1200",
+        "url_nombre": "https://www.munistgo.cl/boticas/",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/way/637360967",
+          "https://www.openstreetmap.org/way/637360969"
+        ],
+        "fecha_revision": "2026-10-09"
       },
       "geometry": {
         "type": "Point",
@@ -485,18 +607,18 @@
       "type": "Feature",
       "properties": {
         "id": "DISAL-013",
-        "nombre": "Plaza de la Integración — comodato de la carpeta",
+        "nombre": "Plaza de la Integración — antecedente de comodato, uso DISAL por confirmar",
         "direccion": "Arturo Prat 471",
         "rol": "No identificado",
         "propiedad": "SERVIU según comodato 1985; DOM 1992 menciona municipal",
         "numero_decreto": "442 (antecedente, 1992)",
         "administracion": "Dirección de Salud (DISAL)",
         "fuente": "Carpeta Comodato Arturo Prat 471 - Plaza Integración.pdf, pp. 1, 3 y 15",
-        "latitud": -33.45104,
-        "longitud": -70.64925,
-        "estado_georreferencia": "Referencia de Plaza de la Integración; número 471 pendiente",
-        "verificacion_numeracion": "Pendiente contraste visual por cuadra en mapa base OSM",
-        "observaciones": "Título vigente y vínculo operativo DISAL por confirmar. Resoluciones 190 y 2353 de 1985 sobre comodato; decreto 442 de 22/07/1992 citado por modificación de deslindes, no decreto de incorporación DISAL.",
+        "latitud": null,
+        "longitud": null,
+        "estado_georreferencia": "Sin punto: referencia anterior incompatible con numeración Arturo Prat 471",
+        "verificacion_numeracion": "Punto anterior (-70.64925, -33.45104) queda al sur de referencia OSM Arturo Prat 501. El número 471 corresponde al tramo 401–501: se retira el punto hasta corroborar el inmueble del comodato.",
+        "observaciones": "Título vigente y vínculo operativo DISAL por confirmar. Resoluciones 190 y 2353 de 1985 sobre comodato; decreto 442 de 22/07/1992 citado por modificación de deslindes, no decreto de incorporación DISAL. Revisión 09-10-2026: Punto anterior (-70.64925, -33.45104) queda al sur de referencia OSM Arturo Prat 501. El número 471 corresponde al tramo 401–501: se retira el punto hasta corroborar el inmueble del comodato.",
         "rol_decreto": "",
         "fecha_decreto": "",
         "url_fuente": "https://mapcarta.com/es/W273490948",
@@ -505,22 +627,27 @@
         "tipo": "DISAL",
         "comuna": "Santiago",
         "barrio": "Sin información",
-        "destino": "Plaza de la Integración — comodato de la carpeta",
-        "beneficiario": "Plaza de la Integración — comodato de la carpeta",
+        "destino": "Plaza de la Integración — antecedente de comodato, uso DISAL por confirmar",
+        "beneficiario": "Plaza de la Integración — antecedente de comodato, uso DISAL por confirmar",
         "propietario_administracion": "SERVIU según comodato 1985; DOM 1992 menciona municipal / Dirección de Salud (DISAL)",
-        "geo_precision": "Referencia de Plaza de la Integración; número 471 pendiente",
-        "poligono_ref": "Referencia de Plaza de la Integración; número 471 pendiente",
-        "estado": "Numeración pendiente de validación",
+        "geo_precision": "Sin punto: referencia anterior incompatible con numeración Arturo Prat 471",
+        "poligono_ref": "Sin punto: referencia anterior incompatible con numeración Arturo Prat 471",
+        "estado": "Sin punto: referencia anterior incompatible con numeración Arturo Prat 471",
         "regimen": "SERVIU según comodato 1985; DOM 1992 menciona municipal",
-        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
+        "url_inventario": "https://docs.google.com/spreadsheets/d/1U-NXPmDNqA-4CSpbG_nEB6wA2QXJuWtKKgZdx_Na3m8/edit",
+        "direccion_atencion": "No acreditada como centro de salud",
+        "evidencia_mapa": [
+          "https://www.openstreetmap.org/node/1279299628",
+          "https://www.openstreetmap.org/node/1279299627",
+          "https://www.openstreetmap.org/way/273490948"
+        ],
+        "fecha_revision": "2026-10-09",
+        "coordenadas_anteriores": [
           -70.64925,
           -33.45104
         ]
-      }
+      },
+      "geometry": null
     }
   ]
 }
