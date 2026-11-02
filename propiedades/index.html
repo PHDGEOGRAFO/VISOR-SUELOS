@@ -65,7 +65,7 @@ input[type=text]{width:100%;box-sizing:border-box;padding:8px;border:1px solid #
 </style>
 </head><body><div id="app">
 <header>
-<div class="brand"><div class="brandmark">STGO</div><div class="brandtxt"><h1>Banco de Suelos · Visor de Propiedades</h1><b>Ilustre Municipalidad de Santiago</b><span>Subdirección de Planificación y Sustentabilidad · Oficina de Planificación</span><small>Versión 18 · actualización Salud y Educación · noviembre 2026</small></div></div>
+<div class="brand"><div class="brandmark">STGO</div><div class="brandtxt"><h1>Banco de Suelos · Visor de Propiedades</h1><b>Ilustre Municipalidad de Santiago</b><span>Subdirección de Planificación y Sustentabilidad · Oficina de Planificación</span><small>Versión 18.1 · revisión geográfica municipal · noviembre 2026</small></div></div>
 <nav><button class="tab active">Mapa</button><button class="tab">Dashboard</button><button class="tab">Priorización</button><button class="tab">Gestión</button></nav>
 </header>
 <aside>
@@ -94,7 +94,7 @@ input[type=text]{width:100%;box-sizing:border-box;padding:8px;border:1px solid #
 <div class="legend-title">Servicios Públicos · Complementaria</div>
 <div class="row"><span>Servicios Públicos</span><input id="chkServiciosPublicos" type="checkbox"></div>
 <div class="sectionnote">Capa de apoyo para evaluación del Banco de Suelos.</div>
-<div class="notice"><b>Fuente municipal activa:</b> catastro IMS actualizado con revisión de roles por dirección 2026. Las coordenadas sólo se modifican con corrección explícita de georreferenciación.</div>
+<div class="notice"><b>Revisión geográfica 02-11-2026:</b> 64 puntos corregidos por dirección/rol y contraste OSM. Hotel Río Blanco retirado del centro de Santiago y conservado fuera del mapa. Las verificaciones pendientes figuran en cada ficha y en la descarga de datos.<br><b>Fuente municipal activa:</b> catastro IMS actualizado con revisión de roles por dirección 2026. Las coordenadas sólo se modifican con corrección explícita de georreferenciación.</div>
 </div>
 <div class="box"><h3>Filtros por cobertura</h3>
 <div class="legend-title">Municipal</div>
@@ -145,7 +145,7 @@ input[type=text]{width:100%;box-sizing:border-box;padding:8px;border:1px solid #
 <div class="printMeta"><b>ILUSTRE MUNICIPALIDAD DE SANTIAGO</b><br>Subdirección de Planificación y Sustentabilidad<br>Oficina de Planificación<br><br><b>Leyenda</b><div id="printLegend"></div></div>
 <div class="notice">Propiedades representadas únicamente mediante puntos georreferenciados. Las capas PRC permanecen como contexto territorial independiente.</div></aside></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="datos/propiedades_y_contexto.js"></script>
+<script src="datos/propiedades_y_contexto.js?v=20261102-geo"></script>
 <script src="datos/prc_parte_01.js"></script>
 <script src="datos/prc_parte_02.js"></script>
 <script src="datos/prc_parte_03.js"></script>
@@ -212,6 +212,7 @@ function showDetail(p){
      <div class="detail-grid">
        <b>Condición PRC</b><span>${esc(val(p.condicion_prc,p.zona_prc))}</span>
        <b>Geometría</b><span>${esc(val(p.poligono_ref,p.geo_precision))}</span>
+       ${p.revision_geo?`<b>Revisión geográfica</b><span>${esc(p.revision_geo)} · ${esc(p.estado_revision_geo)}</span><b>Contraste OSM</b><span>${esc(p.contraste_osm)}</span><b>Fuente geográfica</b><span>${esc(p.fuente_revision_geo)} · ${esc(p.id_fuente_geo)}</span><b>Observación geográfica</b><span>${esc(p.observacion_geo)}</span>`:''}
      </div>
    </div>
  </div>`;

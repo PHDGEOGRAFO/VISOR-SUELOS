@@ -1,0 +1,4155 @@
+{
+  "fecha": "2026-11-02",
+  "metodologia": "Cruce por dirección normalizada, rol y destino. Extracto OSM de 31-07-2026; consulta en vivo no disponible. Se distingue coincidencia de numeración de referencia por calle. No certifica deslindes, titularidad ni acceso exacto. No se trasladan puntos por coincidencia de ID o de fila.",
+  "puntos_revisados": 197,
+  "puntos_publicados": 196,
+  "resultado": {
+    "CONSERVADO": 132,
+    "CORREGIDO": 64,
+    "RETIRADO_PUNTO_ERRONEO": 1
+  },
+  "osm": {
+    "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO": 111,
+    "NUMERACION_OSM_COINCIDENTE": 37,
+    "REVISAR_FUERA_COMUNA": 1,
+    "SIN_REFERENCIA_OSM_SUFICIENTE": 45,
+    "REVISAR_DISTANCIA_A_CALLE_OSM": 2,
+    "FUERA_SANTIAGO_SIN_COORDENADA_VALIDADA": 1
+  },
+  "registros": [
+    {
+      "id": "IMS-0001",
+      "direccion": "ABATE MOLINA N°601",
+      "rol": "891-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67236718908732,
+        -33.45701599706918
+      ],
+      "despues": [
+        -70.67236718908732,
+        -33.45701599706918
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262276751 (Abate Molina 595); node/1264257947 (Abate Molina 594)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 22 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0002",
+      "direccion": "ABATE MOLINA N°652, 656, 658",
+      "rol": "890-172-173",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6720456179233,
+        -33.45737619599287
+      ],
+      "despues": [
+        -70.6720456179233,
+        -33.45737619599287
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262276738 (Abate Molina 699); node/3567984593 (Abate Molina 666)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 28 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0003",
+      "direccion": "ABATE MOLINA Nº609",
+      "rol": "891-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67228436025142,
+        -33.45649490011094
+      ],
+      "despues": [
+        -70.67228436025142,
+        -33.45649490011094
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262277000 (Abate Molina 592); node/1262276753 (Abate Molina 593)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 14 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0004",
+      "direccion": "ABATE MOLINA Nº621",
+      "rol": "891-01",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67229504490764,
+        -33.456824000824156
+      ],
+      "despues": [
+        -70.67229504490764,
+        -33.456824000824156
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262276751 (Abate Molina 595); node/1264257947 (Abate Molina 594)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 7 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0005",
+      "direccion": "ABATE MOLINA Nº635",
+      "rol": "891-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67223071607168,
+        -33.456512802344825
+      ],
+      "despues": [
+        -70.67223071607168,
+        -33.456512802344825
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262277000 (Abate Molina 592); node/1262276753 (Abate Molina 593)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 9 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0006",
+      "direccion": "ABATE MOLINA Nº637",
+      "rol": "891-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67228436025147,
+        -33.45648594899261
+      ],
+      "despues": [
+        -70.67228436025147,
+        -33.45648594899261
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262277000 (Abate Molina 592); node/1262276753 (Abate Molina 593)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 15 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0007",
+      "direccion": "ABATE MOLINA Nº653",
+      "rol": "891-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6722199872358,
+        -33.45646804675317
+      ],
+      "despues": [
+        -70.6722199872358,
+        -33.45646804675317
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262277000 (Abate Molina 592); node/1262276753 (Abate Molina 593)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 11 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0008",
+      "direccion": "ABATE MOLINA Nº656 -666",
+      "rol": "890-174",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.67197097374364,
+        -33.45744540217102
+      ],
+      "despues": [
+        -70.67197097374364,
+        -33.45744540217102
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3567984593",
+      "distancia_numero_osm_m": 45.1,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0009",
+      "direccion": "ABATE MOLINA Nº656 -666",
+      "rol": "890-174",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.67183018908739,
+        -33.45761830451279
+      ],
+      "despues": [
+        -70.67183018908739,
+        -33.45761830451279
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3567984593",
+      "distancia_numero_osm_m": 31.4,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0010",
+      "direccion": "ABATE MOLINA Nº665",
+      "rol": "891-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67228873091632,
+        -33.45663849582885
+      ],
+      "despues": [
+        -70.67228873091632,
+        -33.45663849582885
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262276753 (Abate Molina 593); node/1264257947 (Abate Molina 594)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 15 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0011",
+      "direccion": "ABATE MOLINA Nº667",
+      "rol": "891-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67226826510753,
+        -33.456579955652046
+      ],
+      "despues": [
+        -70.67226826510753,
+        -33.456579955652046
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262277000 (Abate Molina 592); node/1262276753 (Abate Molina 593)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 13 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0012",
+      "direccion": "AGUSTIN RIESCO N°4460",
+      "rol": "2221-139",
+      "accion": "CONSERVADO",
+      "contraste_osm": "REVISAR_FUERA_COMUNA",
+      "antes": [
+        -70.69484111607113,
+        -33.47747789881331
+      ],
+      "despues": [
+        -70.69484111607113,
+        -33.47747789881331
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección Agustín Riesco 4460 en Estación Central; coordenada exacta pendiente de corroborar."
+    },
+    {
+      "id": "IMS-0013",
+      "direccion": "AGUSTINAS (FTE.AL N°735)",
+      "rol": "99-765",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.6473136357485,
+        -33.440479234493985
+      ],
+      "despues": [
+        -70.6473136357485,
+        -33.440479234493985
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0014",
+      "direccion": "AGUSTINAS N°2311",
+      "rol": "332-01",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66833600443167,
+        -33.44231801170721
+      ],
+      "despues": [
+        -70.66833600443167,
+        -33.44231801170721
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1244910254 (Agustinas 2304); node/1244910360 (Agustinas 2301)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 43 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0015",
+      "direccion": "AGUSTINAS N°2680",
+      "rol": "380-20",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67284323326764,
+        -33.443131271150335
+      ],
+      "despues": [
+        -70.67284323326764,
+        -33.443131271150335
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264238779 (Agustinas 2700); node/1264238778 (Agustinas 2718)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 22 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0016",
+      "direccion": "AGUSTINAS N°759",
+      "rol": "74-3",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64757130157824,
+        -33.44026509280716
+      ],
+      "despues": [
+        -70.64757130157824,
+        -33.44026509280716
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279503288 (Agustinas 731); node/1279503274 (Agustinas 799)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 23 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0017",
+      "direccion": "AMUNATEGUI Nº980",
+      "rol": "281-083",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6578524179242,
+        -33.43273143442321
+      ],
+      "despues": [
+        -70.6578524179242,
+        -33.43273143442321
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1278536668 (Amunátegui 998); node/1278536674 (Amunátegui 1000)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 22 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0018",
+      "direccion": "ARGOMEDO N°80",
+      "rol": "667-26",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.63325656025165,
+        -33.44902021339663
+      ],
+      "despues": [
+        -70.63325656025165,
+        -33.44902021339663
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279303162",
+      "distancia_numero_osm_m": 29.1,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0019",
+      "direccion": "ARGOMEDO Nº372",
+      "rol": "679-7",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.63764128908764,
+        -33.450059744989176
+      ],
+      "despues": [
+        -70.63764128908764,
+        -33.450059744989176
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3568014036",
+      "distancia_numero_osm_m": 17.8,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0020",
+      "direccion": "ARTEMIO GUTIERREZ 1218-A",
+      "rol": "3048-22",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6371696314155,
+        -33.45877775419691
+      ],
+      "despues": [
+        -70.6371696314155,
+        -33.45877775419691
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262409254 (Artemio Gutiérrez 1200); node/1262409243 (Artemio Gutiérrez 1198)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 13 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0021",
+      "direccion": "ARTURO PRAT N°1301-1302",
+      "rol": "3080-31",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64708567374343,
+        -33.46217341139767
+      ],
+      "despues": [
+        -70.64708567374343,
+        -33.46217341139767
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262400980 (Arturo Prat 1296); node/1262408793 (Arturo Prat 1295)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 9 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0022",
+      "direccion": "ARTURO PRAT N°1901-1909",
+      "rol": "3734-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64692478908691,
+        -33.470833280813885
+      ],
+      "despues": [
+        -70.64692478908691,
+        -33.470833280813885
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262409186",
+      "distancia_numero_osm_m": 12.2,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0023",
+      "direccion": "ARTURO PRAT N°2124",
+      "rol": "3724-521",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64618261792273,
+        -33.47340663807292
+      ],
+      "despues": [
+        -70.64618261792273,
+        -33.47340663807292
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262401182 (Arturo Prat 2102); node/1262401189 (Arturo Prat 2150)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 33 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0024",
+      "direccion": "ARTURO PRAT N°318-324",
+      "rol": "",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64904717374385,
+        -33.44899048759457
+      ],
+      "despues": [
+        -70.6489401,
+        -33.4501435
+      ],
+      "desplazamiento_m": 128.6,
+      "fuente": "Callejero_OSM_SOLO_SANTIAGO.xlsx / OpenStreetMap",
+      "id_fuente": "node/5067664021",
+      "referencias_osm": "node/5067664021",
+      "distancia_numero_osm_m": 0.0,
+      "observacion": "Numeración OSM 324 coincidente con el rango municipal 318–324; punto de referencia de acceso, sin certificación predial. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0025",
+      "direccion": "ARTURO PRAT N°33",
+      "rol": "380-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.65051503141592,
+        -33.44474826541764
+      ],
+      "despues": [
+        -70.65051503141592,
+        -33.44474826541764
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/9945810629; node/10917526062",
+      "distancia_numero_osm_m": 22.6,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0026",
+      "direccion": "AV, CARDENAL J.M. CARO Nº390",
+      "rol": "198-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64276388908809,
+        -33.43499430683944
+      ],
+      "despues": [
+        -70.64276388908809,
+        -33.43499430683944
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3054723769",
+      "distancia_numero_osm_m": 15.5,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0027",
+      "direccion": "AV. CARLOS VALDOVINOS Nº2949",
+      "rol": "1665-0016",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67307247374283,
+        -33.47809550034439
+      ],
+      "despues": [
+        -70.67307247374283,
+        -33.47809550034439
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0028",
+      "direccion": "AV. CARLOS VALDOVINOS Nº2951",
+      "rol": "1665-002",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.6740926316804,
+        -33.47744464446783
+      ],
+      "despues": [
+        -70.6740926316804,
+        -33.47744464446783
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0029",
+      "direccion": "AV. GENERAL RONDIZZONI Nº2722",
+      "rol": "1473-16-17",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6708464179229,
+        -33.470695333868
+      ],
+      "despues": [
+        -70.6708464179229,
+        -33.470695333868
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1252486468 (Avenida General Rondizzoni 2694); node/1252487182 (Avenida General Rondizzoni 2693)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 37 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0030",
+      "direccion": "AV. MANUEL RODRÍGUEZ SUR Nº 749",
+      "rol": "727-6",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65840498723593,
+        -33.455587044570706
+      ],
+      "despues": [
+        -70.65840498723593,
+        -33.455587044570706
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/8421703474 (Avenida Manuel Rodríguez Sur 725); node/5737910504 (Avenida Manuel Rodríguez Sur 775)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 18 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0031",
+      "direccion": "AV. MANUEL RODRÍGUEZ SUR S/Nº FRENTE 749",
+      "rol": "727-5",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65783393430354,
+        -33.45575258378642
+      ],
+      "despues": [
+        -70.65783393430354,
+        -33.45575258378642
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0032",
+      "direccion": "AV. MATTA Nº1860",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65839302956363,
+        -33.46432046795025
+      ],
+      "despues": [
+        -70.65839302956363,
+        -33.46432046795025
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0033",
+      "direccion": "AV. MATTA Nº1860",
+      "rol": "3189-25",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65774766666992,
+        -33.4628933912997
+      ],
+      "despues": [
+        -70.65774766666992,
+        -33.4628933912997
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0034",
+      "direccion": "AV. MATTA Nº1860 (BODEGAS DEL PARQUE O\"HIGGINS) BODEGA Nº1",
+      "rol": "3189-43",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65812218984175,
+        -33.46312049210454
+      ],
+      "despues": [
+        -70.65812218984175,
+        -33.46312049210454
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0035",
+      "direccion": "AV. MATTA Nº1860 (BODEGAS DEL PARQUE O\"HIGGINS) BODEGA Nº10",
+      "rol": "3189-52",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65814363017944,
+        -33.46227804129617
+      ],
+      "despues": [
+        -70.65814363017944,
+        -33.46227804129617
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0036",
+      "direccion": "AV. MATTA Nº1860 (BODEGAS DEL PARQUE O\"HIGGINS) BODEGA Nº2",
+      "rol": "3189-44",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.6580708604592,
+        -33.46269424245388
+      ],
+      "despues": [
+        -70.6580708604592,
+        -33.46269424245388
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0037",
+      "direccion": "AV. MATTA Nº1860 (BODEGAS DEL PARQUE O\"HIGGINS) BODEGA Nº3",
+      "rol": "3189-45",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65808695371312,
+        -33.462837449980974
+      ],
+      "despues": [
+        -70.65808695371312,
+        -33.462837449980974
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0038",
+      "direccion": "AV. MATTA Nº1860 (BODEGAS DEL PARQUE O\"HIGGINS) BODEGA Nº7",
+      "rol": "3189-49",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65815535004226,
+        -33.46295828114793
+      ],
+      "despues": [
+        -70.65815535004226,
+        -33.46295828114793
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0039",
+      "direccion": "AV. MATTA Nº1860 (BODEGAS DEL PARQUE O\"HIGGINS) BODEGA Nº8",
+      "rol": "3189-50",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65811377580299,
+        -33.46309701302081
+      ],
+      "despues": [
+        -70.65811377580299,
+        -33.46309701302081
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0040",
+      "direccion": "AV. MATTA Nº1860 (BODEGAS DEL PARQUE O\"HIGGINS) BODEGA Nº9",
+      "rol": "3189-51",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65804135616037,
+        -33.46268193554596
+      ],
+      "despues": [
+        -70.65804135616037,
+        -33.46268193554596
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0041",
+      "direccion": "AV. MATTA Nº1860 LOCAL 10 A-B-C",
+      "rol": "3189-28-30-40-41",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65755875935977,
+        -33.46216918803817
+      ],
+      "despues": [
+        -70.65755875935977,
+        -33.46216918803817
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0042",
+      "direccion": "AV. MATTA Nº1860 LOCAL 12",
+      "rol": "3189-31",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65762160284937,
+        -33.46200505386309
+      ],
+      "despues": [
+        -70.65762160284937,
+        -33.46200505386309
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0043",
+      "direccion": "AV. MATTA Nº1860 LOCAL 5-7",
+      "rol": "3189-26",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65794345553238,
+        -33.462591311897626
+      ],
+      "despues": [
+        -70.65794345553238,
+        -33.462591311897626
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0044",
+      "direccion": "AV. MATTA Nº1860 LOCAL 9",
+      "rol": "3189-27",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65764501073618,
+        -33.46226758471474
+      ],
+      "despues": [
+        -70.65764501073618,
+        -33.46226758471474
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0045",
+      "direccion": "AV. PDTE. BALMACEDA ALT.2200",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.6693704701098,
+        -33.42907242364533
+      ],
+      "despues": [
+        -70.6693704701098,
+        -33.42907242364533
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0046",
+      "direccion": "AV. PDTE. BALMACEDA ESQ. BULNES",
+      "rol": "45780",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67177339024657,
+        -33.42823908365658
+      ],
+      "despues": [
+        -70.67177339024657,
+        -33.42823908365658
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0047",
+      "direccion": "AV. PDTE. BALMACEDA N°1106-1114",
+      "rol": "275-4",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67280337842583,
+        -33.42733649770229
+      ],
+      "despues": [
+        -70.67280337842583,
+        -33.42733649770229
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1263631568 (Avenida Presidente Balmaceda 2400); node/1263631569 (Avenida Presidente Balmaceda 2450)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 80 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0048",
+      "direccion": "AV. PDTE. BALMACEDA N°1140-46",
+      "rol": "275-4",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65371264039298,
+        -33.432873621283
+      ],
+      "despues": [
+        -70.65371264039298,
+        -33.432873621283
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1278536588 (Avenida Presidente Balmaceda 1118); node/1278536595 (Avenida Presidente Balmaceda 1198)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 2 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0049",
+      "direccion": "AV. PDTE. BALMACEDA N°2199",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67015073141637,
+        -33.42822507681549
+      ],
+      "despues": [
+        -70.67015073141637,
+        -33.42822507681549
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1244483342 (Avenida Presidente Balmaceda 2350); node/1244483339 (Avenida Presidente Balmaceda 2360)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 75 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0051",
+      "direccion": "AV. PORTALES Nº3357",
+      "rol": "325-13",
+      "accion": "CONSERVADO",
+      "contraste_osm": "REVISAR_DISTANCIA_A_CALLE_OSM",
+      "antes": [
+        -70.68120857165891,
+        -33.44360032082191
+      ],
+      "despues": [
+        -70.68120857165891,
+        -33.44360032082191
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264239336 (Portales 3163); node/1264239338 (Portales 3101)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 269 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0052",
+      "direccion": "AV. PORTALES Nº3530",
+      "rol": "00327-00002",
+      "accion": "CONSERVADO",
+      "contraste_osm": "REVISAR_DISTANCIA_A_CALLE_OSM",
+      "antes": [
+        -70.68413340204906,
+        -33.444363432874916
+      ],
+      "despues": [
+        -70.68413340204906,
+        -33.444363432874916
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264239336 (Portales 3163); node/1264239338 (Portales 3101)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 550 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0053",
+      "direccion": "AV.DIEGO PORTALES N°2717",
+      "rol": "336-2",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67335973115615,
+        -33.44282823649854
+      ],
+      "despues": [
+        -70.67335973115615,
+        -33.44282823649854
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264239340 (Portales 2733); node/1264239343 (Portales 2715)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 8 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0054",
+      "direccion": "AV.DIEGO PORTALES N°2805",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67409545700835,
+        -33.442772384990214
+      ],
+      "despues": [
+        -70.67409545700835,
+        -33.442772384990214
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264239333 (Portales 2803); node/1264239342 (Portales 2801)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 20 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0057",
+      "direccion": "BANDERA N°361",
+      "rol": "131-119",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.65221833141612,
+        -33.43871086157291
+      ],
+      "despues": [
+        -70.65221833141612,
+        -33.43871086157291
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1297763053",
+      "distancia_numero_osm_m": 34.9,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0058",
+      "direccion": "BASCUÑAN GUERRERO Nº2181",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67185718048908,
+        -33.47528240373809
+      ],
+      "despues": [
+        -70.67185718048908,
+        -33.47528240373809
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1252486507 (Bascuñán Guerrero 2124); node/1252487235 (Bascuñán Guerrero 2200)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 38 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0059",
+      "direccion": "BÍO-BÍO Nº1359-1361",
+      "rol": "3753-2",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65090820150306,
+        -33.4742294924901
+      ],
+      "despues": [
+        -70.65090820150306,
+        -33.4742294924901
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262402107 (Bio-Bio 1351); node/1262402109 (Bio-Bio 1383)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 31 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0060",
+      "direccion": "CARMEN 1320",
+      "rol": "3072-27-28-29",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63843381996493,
+        -33.460940411225835
+      ],
+      "despues": [
+        -70.63843381996493,
+        -33.460940411225835
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262411785 (Carmen 1294); node/1262409842 (Carmen 1295)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 21 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0061",
+      "direccion": "CARMEN N°1200",
+      "rol": "3049-19",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63832071502804,
+        -33.459672617587174
+      ],
+      "despues": [
+        -70.63832071502804,
+        -33.459672617587174
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262399766 (Carmen 1202); node/1262409729 (Carmen 1203)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 82 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0062",
+      "direccion": "CARMEN N°1200",
+      "rol": "3049-19",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6388016797642,
+        -33.459850250062516
+      ],
+      "despues": [
+        -70.6388016797642,
+        -33.459850250062516
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262409717 (Carmen 1293); node/1262399766 (Carmen 1202)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 73 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0063",
+      "direccion": "CATEDRAL N°1650-1656",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66042741728904,
+        -33.43827100763895
+      ],
+      "despues": [
+        -70.66042741728904,
+        -33.43827100763895
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1244482922 (Catedral 1713); node/1244484014 (Catedral 1712)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 64 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0064",
+      "direccion": "CHILOE N°1704 (PSJE. GRANDÓN Nº869 CASA 4)",
+      "rol": "3464-27",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64497838584163,
+        -33.467847223935316
+      ],
+      "despues": [
+        -70.64497838584163,
+        -33.467847223935316
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262399323",
+      "distancia_numero_osm_m": 75.0,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0065",
+      "direccion": "CIENFUEGOS Nº72",
+      "rol": "67-25",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66324940258019,
+        -33.443796567775166
+      ],
+      "despues": [
+        -70.66324940258019,
+        -33.443796567775166
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1244910268 (Cienfuegos 66); node/1244910305 (Cienfuegos 65)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 18 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0066",
+      "direccion": "CONFERENCIA Nº1083",
+      "rol": "1012-76",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.6752242025794,
+        -33.46268561353048
+      ],
+      "despues": [
+        -70.6752242025794,
+        -33.46268561353048
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3567962999",
+      "distancia_numero_osm_m": 17.8,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0067",
+      "direccion": "CONFERENCIA Nº1083 PJE. TEGUALDA Nº1036",
+      "rol": "1012-76",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.67522858227635,
+        -33.4628978283081
+      ],
+      "despues": [
+        -70.67522858227635,
+        -33.4628978283081
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3567962999",
+      "distancia_numero_osm_m": 6.0,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0068",
+      "direccion": "COPIAPÓ N°1342",
+      "rol": "2815-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.6532139,
+        -33.4558244520276
+      ],
+      "despues": [
+        -70.6532139,
+        -33.4558244520276
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3565420898",
+      "distancia_numero_osm_m": 40.1,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0069",
+      "direccion": "COPIAPÓ N°1394",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.65347356323204,
+        -33.45593613537397
+      ],
+      "despues": [
+        -70.65347356323204,
+        -33.45593613537397
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1278191744",
+      "distancia_numero_osm_m": 45.5,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0070",
+      "direccion": "COPIAPO Nº1152",
+      "rol": "2808-27",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6506566713494,
+        -33.455656966726316
+      ],
+      "despues": [
+        -70.6506566713494,
+        -33.455656966726316
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1278191756 (Copiapó 1186); node/1278191940 (Copiapó 1185)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 40 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0071",
+      "direccion": "COQUIMBO N°321",
+      "rol": "2778-12",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63456564675931,
+        -33.453504836606314
+      ],
+      "despues": [
+        -70.63456564675931,
+        -33.453504836606314
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279298855 (Coquimbo 341); node/1279298900 (Coquimbo 303)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 56 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0072",
+      "direccion": "CUETO N°1256",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67357527496094,
+        -33.430562336371494
+      ],
+      "despues": [
+        -70.67357527496094,
+        -33.430562336371494
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264229999 (Cueto 1221); node/1264228923 (Cueto 1220)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 67 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0073",
+      "direccion": "CUETO N°257",
+      "rol": "334-9",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.67177018723625,
+        -33.44221326916115
+      ],
+      "despues": [
+        -70.67177018723625,
+        -33.44221326916115
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/2702495473",
+      "distancia_numero_osm_m": 40.7,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0074",
+      "direccion": "CUEVAS N°843",
+      "rol": "2780-6",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63526187374381,
+        -33.453224787286445
+      ],
+      "despues": [
+        -70.63526187374381,
+        -33.453224787286445
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279299222 (Cuevas 803); node/1279299229 (Cuevas 801)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 21 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0075",
+      "direccion": "DIECIOCHO N°438-498",
+      "rol": "545-18",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.65683791792355,
+        -33.45182348682657
+      ],
+      "despues": [
+        -70.65683791792355,
+        -33.45182348682657
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1278191781; node/10928002663",
+      "distancia_numero_osm_m": 66.5,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0076",
+      "direccion": "DIEZ DE JULIO N°760-766",
+      "rol": "2795-35",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.64538201792338,
+        -33.45371403993104
+      ],
+      "despues": [
+        -70.64538201792338,
+        -33.45371403993104
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0077",
+      "direccion": "DIEZ DE JULIO Nº770",
+      "rol": "2795-35",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.6455433879352,
+        -33.45365111446338
+      ],
+      "despues": [
+        -70.6455433879352,
+        -33.45365111446338
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0078",
+      "direccion": "ERASMO ESCALA 2528 2612",
+      "rol": "440-17",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67136838632092,
+        -33.44562797414178
+      ],
+      "despues": [
+        -70.67136838632092,
+        -33.44562797414178
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264239129 (Erasmo Escala 2526); node/1264239001 (Erasmo Escala 2527)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 26 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0079",
+      "direccion": "ESMERALDA Nº749",
+      "rol": "225-14",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64809164103768,
+        -33.43445007198942
+      ],
+      "despues": [
+        -70.64809164103768,
+        -33.43445007198942
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279504293",
+      "distancia_numero_osm_m": 11.3,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0080",
+      "direccion": "ESPERANZA N°1215",
+      "rol": "72-106",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.67614265790493,
+        -33.43152815312091
+      ],
+      "despues": [
+        -70.67614265790493,
+        -33.43152815312091
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3565418005",
+      "distancia_numero_osm_m": 21.1,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0081",
+      "direccion": "ESPERANZA Nº1115",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6763167001854,
+        -33.43235019989399
+      ],
+      "despues": [
+        -70.6763167001854,
+        -33.43235019989399
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264228818 (Esperanza 1101); node/1264228734 (Esperanza 1100)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 15 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0082",
+      "direccion": "FRANKLIN N°1375",
+      "rol": "3747-16",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65070607024944,
+        -33.47278549856135
+      ],
+      "despues": [
+        -70.65070607024944,
+        -33.47278549856135
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262403337 (Franklin 1351); node/1262403177 (Franklin 1349)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 59 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0083",
+      "direccion": "GARCIA REYES 556-562",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67208986146781,
+        -33.43823480755688
+      ],
+      "despues": [
+        -70.67208986146781,
+        -33.43823480755688
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264229463 (García Reyes 600); node/1264228877 (García Reyes 601)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 26 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0084",
+      "direccion": "HERRERA Nº330-340",
+      "rol": "323-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67765765649942,
+        -33.44204060793169
+      ],
+      "despues": [
+        -70.67765765649942,
+        -33.44204060793169
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264239024 (Herrera 300); node/1264239155 (Herrera 301)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 34 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0085",
+      "direccion": "HERRERA Nº360-A",
+      "rol": "323-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67767598374951,
+        -33.44142748241822
+      ],
+      "despues": [
+        -70.67767598374951,
+        -33.44142748241822
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264239025 (Herrera 408); node/1264239156 (Herrera 407)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 4 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0086",
+      "direccion": "HUERFANOS Nº1795 - 1785",
+      "rol": "142-260",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66076155840038,
+        -33.440382065193695
+      ],
+      "despues": [
+        -70.66076155840038,
+        -33.440382065193695
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1244910410 (Huérfanos 1703); node/1244910488 (Huérfanos 1702)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 28 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0087",
+      "direccion": "HURTADO RODRIGUEZ N°319 - 323",
+      "rol": "314-14",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6748492545513,
+        -33.44193420688739
+      ],
+      "despues": [
+        -70.6748492545513,
+        -33.44193420688739
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264239005 (Hurtado Rodríguez 312); node/1264239013 (Hurtado Rodríguez 388)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 31 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0088",
+      "direccion": "INTERIOR P. O\"HIGGINS / RONDIZZONI",
+      "rol": "3189-6",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.66177601632997,
+        -33.466575267988304
+      ],
+      "despues": [
+        -70.66177601632997,
+        -33.466575267988304
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0089",
+      "direccion": "INTERIOR P. O\"HIGGINS /RONDIZZONI",
+      "rol": "3189-11",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.66110743149466,
+        -33.46452915614901
+      ],
+      "despues": [
+        -70.66110743149466,
+        -33.46452915614901
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0090",
+      "direccion": "INTERIOR P. O\"HIGGINS/RONDIZZONI",
+      "rol": "3189-5",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.66042300828634,
+        -33.468278707153665
+      ],
+      "despues": [
+        -70.66042300828634,
+        -33.468278707153665
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0091",
+      "direccion": "INTERIOR P. O\"HIGGINS/RONDIZZONI",
+      "rol": "3189-03",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65851984533984,
+        -33.46823530108875
+      ],
+      "despues": [
+        -70.65851984533984,
+        -33.46823530108875
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0092",
+      "direccion": "INTERIOR P. O\"HIGGINS/RONDIZZONI",
+      "rol": "3189-04",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65906433376398,
+        -33.468303544092684
+      ],
+      "despues": [
+        -70.65906433376398,
+        -33.468303544092684
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0093",
+      "direccion": "INTERIOR PARQUE O\"HIGGINS",
+      "rol": "3189-2",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.6584784676866,
+        -33.46623796563207
+      ],
+      "despues": [
+        -70.6584784676866,
+        -33.46623796563207
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0094",
+      "direccion": "INTERIOR QTA. NORMAL/PORTALES",
+      "rol": "325-22",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.68575975818555,
+        -33.44181876926626
+      ],
+      "despues": [
+        -70.68575975818555,
+        -33.44181876926626
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0095",
+      "direccion": "INTERIOR QTA. NORMAL/PORTALES",
+      "rol": "325-18",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.68484083917251,
+        -33.44320867854699
+      ],
+      "despues": [
+        -70.68484083917251,
+        -33.44320867854699
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0096",
+      "direccion": "INTERIOR QTA. NORMAL/STO. DOMINGO",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.68353399635538,
+        -33.4392967356892
+      ],
+      "despues": [
+        -70.68353399635538,
+        -33.4392967356892
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0097",
+      "direccion": "INTERIOR QTA. NORMAL/STO. DOMINGO",
+      "rol": "325-10",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.68065860092301,
+        -33.439017712930074
+      ],
+      "despues": [
+        -70.68065860092301,
+        -33.439017712930074
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0098",
+      "direccion": "JUAN VICUÑA Nº1602",
+      "rol": "3459-74",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64341503038274,
+        -33.46688209881095
+      ],
+      "despues": [
+        -70.64341503038274,
+        -33.46688209881095
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262410230 (Juan Vicuña 1613); node/1262399724 (Juan Vicuña 1611)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 7 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0099",
+      "direccion": "JUAN VICUÑA Nº1650",
+      "rol": "SIN ROL",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64316766266107,
+        -33.46741368588351
+      ],
+      "despues": [
+        -70.64316766266107,
+        -33.46741368588351
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3568187393",
+      "distancia_numero_osm_m": 14.5,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0100",
+      "direccion": "LIRA N°505",
+      "rol": "619-2",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63920426643598,
+        -33.44928748471262
+      ],
+      "despues": [
+        -70.63920426643598,
+        -33.44928748471262
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279296950 (Lira 501); node/1279296932 (Lira 499)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 11 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0101",
+      "direccion": "LIRA Nº308-314 ESQUINA MARIN Nº396",
+      "rol": "520-28-29 Y 520-55 AL 63",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63962123920221,
+        -33.44713489544234
+      ],
+      "despues": [
+        -70.63962123920221,
+        -33.44713489544234
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279297194 (Lira 302); node/1279296940 (Lira 303)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 5 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0102",
+      "direccion": "LIRA Nº501",
+      "rol": "619-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.63913261157712,
+        -33.449311982488915
+      ],
+      "despues": [
+        -70.63913261157712,
+        -33.449311982488915
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279296950",
+      "distancia_numero_osm_m": 4.1,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0103",
+      "direccion": "LORD COCHRANE Nº1304 (ESQ. STGO. 1330-1398)",
+      "rol": "3118-14",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65291337864542,
+        -33.46274742792469
+      ],
+      "despues": [
+        -70.65291337864542,
+        -33.46274742792469
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262400673 (Lord Cochrane 1291); node/1262402404 (Lord Cochrane 1290)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 23 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0104",
+      "direccion": "LORD COCHRANE Nº804",
+      "rol": "2815-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65369757908655,
+        -33.45606415946816
+      ],
+      "despues": [
+        -70.65369757908655,
+        -33.45606415946816
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1278192394 (Lord Cochrane 800); node/1278192386 (Lord Cochrane 798)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 4 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0105",
+      "direccion": "M. AMATT PASAJE EL SOL",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67080034725619,
+        -33.46816755665016
+      ],
+      "despues": [
+        -70.67080034725619,
+        -33.46816755665016
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0106",
+      "direccion": "MAPOCHO Nº2877 CON ESPERANZA",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67603069567609,
+        -33.43253647028149
+      ],
+      "despues": [
+        -70.67603069567609,
+        -33.43253647028149
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264229738 (Avenida Mapocho 2899); node/1264230310 (Avenida Mapocho 2898)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 19 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0107",
+      "direccion": "MAPOCHO Nº2885 ESQ. ESPERANZA",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67615055991031,
+        -33.432438513529625
+      ],
+      "despues": [
+        -70.67615055991031,
+        -33.432438513529625
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264229738 (Avenida Mapocho 2899); node/1264230310 (Avenida Mapocho 2898)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 10 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0108",
+      "direccion": "MATUCANA Nº1457-1499 (HERRERA Nº1450)",
+      "rol": "55-10",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.67892871623673,
+        -33.42817741369931
+      ],
+      "despues": [
+        -70.67892871623673,
+        -33.42817741369931
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1263631668",
+      "distancia_numero_osm_m": 87.0,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0109",
+      "direccion": "MATUCANA Nº272",
+      "rol": "325-12",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.68045373144652,
+        -33.44295102963679
+      ],
+      "despues": [
+        -70.68045373144652,
+        -33.44295102963679
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264239117 (Matucana 462); node/1264239124 (Matucana 464)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 73 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0110",
+      "direccion": "MATUCANA Nº518-20",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.68071918011884,
+        -33.439980889492446
+      ],
+      "despues": [
+        -70.68071918011884,
+        -33.439980889492446
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264229669 (Matucana 510); node/1264239126 (Matucana 508)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 63 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0111",
+      "direccion": "MATURANA Nº 1203",
+      "rol": "41-12",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66768310899707,
+        -33.43083431915831
+      ],
+      "despues": [
+        -70.66768310899707,
+        -33.43083431915831
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1244482449 (Maturana 1201); node/1244482347 (Maturana 1231)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 4 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0112",
+      "direccion": "MAULE Nº738 (JUAN VICUÑA Nº1602)",
+      "rol": "3459-74",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64343096758327,
+        -33.46687946122352
+      ],
+      "despues": [
+        -70.64343096758327,
+        -33.46687946122352
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262403701 (Maule 750); node/1262408529 (Maule 749)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 3 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0113",
+      "direccion": "MERCED N°852-60",
+      "rol": "126-490",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.6492253474257,
+        -33.438400615179795
+      ],
+      "despues": [
+        -70.6492253474257,
+        -33.438400615179795
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279505027",
+      "distancia_numero_osm_m": 10.2,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0114",
+      "direccion": "MONEDA N°759",
+      "rol": "74-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64735348660622,
+        -33.441388995368634
+      ],
+      "despues": [
+        -70.64735348660622,
+        -33.441388995368634
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/12140277537; node/13089489605",
+      "distancia_numero_osm_m": 11.4,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0115",
+      "direccion": "MONEDA Nº2672-96 ESQ. SOTOMAYOR Nº97",
+      "rol": "410-63",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67276137688864,
+        -33.44460293118144
+      ],
+      "despues": [
+        -70.67276137688864,
+        -33.44460293118144
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1264238824 (Moneda 2700); node/1264238821 (Moneda 2704)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 6 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0116",
+      "direccion": "NATANIEL COX N°2029-31",
+      "rol": "3747-8",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64981852597906,
+        -33.47258561794656
+      ],
+      "despues": [
+        -70.64981852597906,
+        -33.47258561794656
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262401867 (Nataniel Cox 2103); node/1262405372 (Nataniel Cox 2102)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 18 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0117",
+      "direccion": "NATANIEL COX N°2029-2035",
+      "rol": "3747-8",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65010681041976,
+        -33.4724005172753
+      ],
+      "despues": [
+        -70.65010681041976,
+        -33.4724005172753
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262401867 (Nataniel Cox 2103); node/1262405372 (Nataniel Cox 2102)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 22 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0118",
+      "direccion": "NATANIEL N°399",
+      "rol": "539-9",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.65330671665946,
+        -33.45071400272184
+      ],
+      "despues": [
+        -70.65330671665946,
+        -33.45071400272184
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/5543890459",
+      "distancia_numero_osm_m": 18.8,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0119",
+      "direccion": "PADRE ORELLANA N°1684",
+      "rol": "3392-36",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.62977872252559,
+        -33.46623881198785
+      ],
+      "despues": [
+        -70.62977872252559,
+        -33.46623881198785
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/11172535584 (Padre Orellana 1708); node/1243845018 (Padre Orellana 1600)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 15 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0120",
+      "direccion": "PADRE ORELLANA N°1850",
+      "rol": "3606-27",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.62909468453371,
+        -33.4685668235984
+      ],
+      "despues": [
+        -70.62909468453371,
+        -33.4685668235984
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1242342353 (Padre Orellana 1898); node/1242343126 (Padre Orellana 1899)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 25 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0121",
+      "direccion": "PLACER Nº536",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63692621661818,
+        -33.47514479607967
+      ],
+      "despues": [
+        -70.63692621661818,
+        -33.47514479607967
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1262400538 (Placer 534); node/1262408342 (Placer 533)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 4 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0122",
+      "direccion": "PLAZA DE ARMAS (LADO PONIENTE PALACIO CONSISTORIAL)",
+      "rol": "182-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65043892787996,
+        -33.43714223698834
+      ],
+      "despues": [
+        -70.65043892787996,
+        -33.43714223698834
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0123",
+      "direccion": "PLAZA DE ARMAS 915",
+      "rol": "182-1",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65076529135324,
+        -33.437271282175125
+      ],
+      "despues": [
+        -70.65076529135324,
+        -33.437271282175125
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/10963945038 (Plaza de Armas 951); node/5394005906 (Plaza de Armas 999)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 21 m. OSM no confirma el número exacto. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0124",
+      "direccion": "PORTAL BULNES S/Nº",
+      "rol": "156-879",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.64964034430064,
+        -33.43816172728862
+      ],
+      "despues": [
+        -70.64964034430064,
+        -33.43816172728862
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0125",
+      "direccion": "PORTUGAL N°514",
+      "rol": "610-20",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.63517707242323,
+        -33.44844202668809
+      ],
+      "despues": [
+        -70.63517707242323,
+        -33.44844202668809
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/10754685885",
+      "distancia_numero_osm_m": 13.9,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0126",
+      "direccion": "PUERTA DE VERA Nº1016",
+      "rol": "1012-64",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67644888282865,
+        -33.46250810011431
+      ],
+      "despues": [
+        -70.67644888282865,
+        -33.46250810011431
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/609297709 (Puerta de Vera 1041); node/1264271099 (Puerta de Vera 1020)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 13 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0127",
+      "direccion": "RAULI N°684",
+      "rol": "677-21",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6354950355591,
+        -33.45132875036227
+      ],
+      "despues": [
+        -70.6354950355591,
+        -33.45132875036227
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1279299260 (Raulí 683); node/1279299258 (Raulí 649)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 58 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0128",
+      "direccion": "RICARDO CUMMING N°202-8",
+      "rol": "332-01",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66814632827183,
+        -33.44247312336622
+      ],
+      "despues": [
+        -70.66814632827183,
+        -33.44247312336622
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1244910194 (Avenida Ricardo Cumming 192); node/1244910549 (Avenida Ricardo Cumming 205)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 25 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0129",
+      "direccion": "RICARDO CUMMING N°210",
+      "rol": "332-01",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6681861501814,
+        -33.442385328613135
+      ],
+      "despues": [
+        -70.6681861501814,
+        -33.442385328613135
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1244910194 (Avenida Ricardo Cumming 192); node/1244910549 (Avenida Ricardo Cumming 205)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 35 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0130",
+      "direccion": "RICARDO CUMMING N°218-220",
+      "rol": "332-01",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66818425353948,
+        -33.4422546117016
+      ],
+      "despues": [
+        -70.66818425353948,
+        -33.4422546117016
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/7985987475 (Avenida Ricardo Cumming 240); node/1372258048 (Avenida Ricardo Cumming 221)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 27 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0131",
+      "direccion": "RICARDO CUMMING N°588",
+      "rol": "266-27",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66893999646557,
+        -33.43784733404029
+      ],
+      "despues": [
+        -70.66893999646557,
+        -33.43784733404029
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1244485125 (Avenida Ricardo Cumming 596); node/1244485162 (Avenida Ricardo Cumming 582)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 14 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0132",
+      "direccion": "RICARDO CUMMING Nº733",
+      "rol": "195-20",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.66848148363398,
+        -33.435722760245504
+      ],
+      "despues": [
+        -70.66848148363398,
+        -33.435722760245504
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/3567965120",
+      "distancia_numero_osm_m": 10.6,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0133",
+      "direccion": "RIO BLANCO (KILOMETRO 33 CAMINO INT.)",
+      "rol": "01048-5",
+      "accion": "RETIRADO_PUNTO_ERRONEO",
+      "contraste_osm": "FUERA_SANTIAGO_SIN_COORDENADA_VALIDADA",
+      "antes": [
+        -70.65058793647262,
+        -33.43832788452536
+      ],
+      "despues": null,
+      "desplazamiento_m": null,
+      "fuente": "Ley del Lobby / Municipalidad de Santiago",
+      "id_fuente": "",
+      "referencias_osm": "https://www.leylobby.gob.cl/instituciones/MU308/audiencias/2026/758124/949389",
+      "distancia_numero_osm_m": null,
+      "observacion": "Hotel Río Blanco, rol 1048-5, corresponde a Los Andes, camino internacional CH-60 km 33. No se conserva el punto del centro de Santiago. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. No se asigna un punto aproximado de la localidad al predio."
+    },
+    {
+      "id": "IMS-0134",
+      "direccion": "SALVADOR SANFUENTES Nº2363",
+      "rol": "558-16",
+      "accion": "CONSERVADO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66932719946058,
+        -33.4502247013358
+      ],
+      "despues": [
+        -70.66932719946058,
+        -33.4502247013358
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1245530707 (Salvador Sanfuentes 2355); node/1245530655 (Salvador Sanfuentes 2354)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Referencia de la misma calle a 29 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0135",
+      "direccion": "SAN FRANCISCO N°1315",
+      "rol": "3079-21",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6500462924173,
+        -33.45561497100634
+      ],
+      "despues": [
+        -70.64512381033738,
+        -33.462414094417646
+      ],
+      "desplazamiento_m": 883.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0146",
+      "referencias_osm": "node/1262408929 (San Fancisco 1299); node/1262408940 (San Fancisco 1297)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 25 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0136",
+      "direccion": "SAN FRANCISCO Nº1890-1898",
+      "rol": "3707-102",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64512381033738,
+        -33.462414094417646
+      ],
+      "despues": [
+        -70.64378450169339,
+        -33.47045643140322
+      ],
+      "desplazamiento_m": 902.9,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0147",
+      "referencias_osm": "node/1262401133 (San Fancisco 1900); node/1262401137 (San Fancisco 1902)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 4 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0137",
+      "direccion": "SAN IGNACIO N°655-691",
+      "rol": "652-3",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64378450169339,
+        -33.47045643140322
+      ],
+      "despues": [
+        -70.65573547687698,
+        -33.45431032983864
+      ],
+      "desplazamiento_m": 2109.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0148",
+      "referencias_osm": "node/1278191971 (San Ignacio de Loyola 698); node/1278191992 (San Ignacio de Loyola 700)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 22 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0138",
+      "direccion": "SAN IGNACIO N°812-818",
+      "rol": "2821-23",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65573547687698,
+        -33.45431032983864
+      ],
+      "despues": [
+        -70.65561683004981,
+        -33.45648063039146
+      ],
+      "desplazamiento_m": 241.6,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0149",
+      "referencias_osm": "node/1278192005 (San Ignacio de Loyola 804); node/1278191990 (San Ignacio de Loyola 802)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 21 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0139",
+      "direccion": "SAN ISIDRO N°415-17",
+      "rol": "522-14",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65561683004981,
+        -33.45648063039146
+      ],
+      "despues": [
+        -70.64344504781924,
+        -33.44922201519751
+      ],
+      "desplazamiento_m": 1387.3,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0150",
+      "referencias_osm": "node/5935345652 (San Isidro 431); node/5000931521 (San Isidro 401)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 13 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0140",
+      "direccion": "SAN ISIDRO N°475",
+      "rol": "593-7",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64344504781924,
+        -33.44922201519751
+      ],
+      "despues": [
+        -70.6432437823754,
+        -33.449934197846424
+      ],
+      "desplazamiento_m": 81.4,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0151",
+      "referencias_osm": "node/5220189233 (San Isidro 469); node/1279295845 (San Isidro 497)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 3 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0141",
+      "direccion": "SAN ISIDRO N°481",
+      "rol": "593- 9",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.6432437823754,
+        -33.449934197846424
+      ],
+      "despues": [
+        -70.64318290018531,
+        -33.4500040496803
+      ],
+      "desplazamiento_m": 9.6,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0152",
+      "referencias_osm": "node/5700760641",
+      "distancia_numero_osm_m": 20.0,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0142",
+      "direccion": "SAN ISIDRO N°481-A",
+      "rol": "593- 10",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64318290018531,
+        -33.4500040496803
+      ],
+      "despues": [
+        -70.64335468301445,
+        -33.45002834881302
+      ],
+      "desplazamiento_m": 16.2,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0153",
+      "referencias_osm": "node/5700760641",
+      "distancia_numero_osm_m": 36.1,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0143",
+      "direccion": "SAN ISIDRO Nº475-481-A",
+      "rol": "593-7-10",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64335468301445,
+        -33.45002834881302
+      ],
+      "despues": [
+        -70.64360057123235,
+        -33.450076168488
+      ],
+      "desplazamiento_m": 23.4,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0154",
+      "referencias_osm": "node/5700760641",
+      "distancia_numero_osm_m": 59.4,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0144",
+      "direccion": "SAN ISIDRO Nº479",
+      "rol": "593-8",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64360057123235,
+        -33.450076168488
+      ],
+      "despues": [
+        -70.64313753574847,
+        -33.44999050145561
+      ],
+      "desplazamiento_m": 44.0,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0155",
+      "referencias_osm": "node/5220189233 (San Isidro 469); node/1279295845 (San Isidro 497)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 10 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0145",
+      "direccion": "SAN ISIDRO Nº491",
+      "rol": "593-11",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64313753574847,
+        -33.44999050145561
+      ],
+      "despues": [
+        -70.6431938500543,
+        -33.45003223079831
+      ],
+      "desplazamiento_m": 7.0,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0156",
+      "referencias_osm": "node/5220189233 (San Isidro 469); node/6097005255 (San Isidro 471)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 9 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0146",
+      "direccion": "SAN PABLO 1986",
+      "rol": "244-59",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6431938500543,
+        -33.45003223079831
+      ],
+      "despues": [
+        -70.66474700290955,
+        -33.43490894799716
+      ],
+      "desplazamiento_m": 2611.5,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0157",
+      "referencias_osm": "node/1244483638 (San Pablo 2000); node/1244484176 (San Pablo 1999)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 25 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0147",
+      "direccion": "SANTA ELENA N°1675",
+      "rol": "3392-6",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66474700290955,
+        -33.43490894799716
+      ],
+      "despues": [
+        -70.62891387133122,
+        -33.46610186534795
+      ],
+      "desplazamiento_m": 4802.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0158",
+      "referencias_osm": "node/1243845624 (Santa Elena 1601); node/1243845367 (Santa Elena 1600)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 95 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0148",
+      "direccion": "SANTA ELENA N°1721",
+      "rol": "3392-7",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.62891387133122,
+        -33.46610186534795
+      ],
+      "despues": [
+        -70.62826600016638,
+        -33.46657767242847
+      ],
+      "desplazamiento_m": 80.0,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0159",
+      "referencias_osm": "node/5033496021 (Santa Elena 1761); node/906426823 (Santa Elena 1829)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 60 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0149",
+      "direccion": "SANTA ISABEL N°128",
+      "rol": "609-28",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.62826600016638,
+        -33.46657767242847
+      ],
+      "despues": [
+        -70.63377490422106,
+        -33.448023345683254
+      ],
+      "desplazamiento_m": 2125.5,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0160",
+      "referencias_osm": "node/1279303343 (Avenida Santa Isabel 102); node/1279303342 (Avenida Santa Isabel 100)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 17 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0150",
+      "direccion": "SANTA ISABEL N°156",
+      "rol": "609-7",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63377490422106,
+        -33.448023345683254
+      ],
+      "despues": [
+        -70.63398341123029,
+        -33.44807195239885
+      ],
+      "desplazamiento_m": 20.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0161",
+      "referencias_osm": "node/1279303343 (Avenida Santa Isabel 102); node/1279303344 (Avenida Santa Isabel 198)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 31 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0151",
+      "direccion": "SANTA ISABEL N°172-88",
+      "rol": "609-9",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63398341123029,
+        -33.44807195239885
+      ],
+      "despues": [
+        -70.63420016460334,
+        -33.448207738481734
+      ],
+      "desplazamiento_m": 25.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0162",
+      "referencias_osm": "node/1279303344 (Avenida Santa Isabel 198); node/1279303333 (Avenida Santa Isabel 200)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 24 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0152",
+      "direccion": "SANTA ISABEL N°382 - 384",
+      "rol": "617-35",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63420016460334,
+        -33.448207738481734
+      ],
+      "despues": [
+        -70.63838551579602,
+        -33.44907294061236
+      ],
+      "desplazamiento_m": 399.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0163",
+      "referencias_osm": "node/1279299287 (Avenida Santa Isabel 398); node/1279299303 (Avenida Santa Isabel 399)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 51 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0153",
+      "direccion": "SANTA ISABEL N°386",
+      "rol": "617-36",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63838551579602,
+        -33.44907294061236
+      ],
+      "despues": [
+        -70.6384392698015,
+        -33.44913486693321
+      ],
+      "desplazamiento_m": 8.5,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0164",
+      "referencias_osm": "node/1279299287 (Avenida Santa Isabel 398); node/1279299303 (Avenida Santa Isabel 399)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 44 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0154",
+      "direccion": "SANTA ISABEL N°468",
+      "rol": "621-17",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6384392698015,
+        -33.44913486693321
+      ],
+      "despues": [
+        -70.6407704476007,
+        -33.44973287251941
+      ],
+      "desplazamiento_m": 226.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0165",
+      "referencias_osm": "node/1279299312 (Avenida Santa Isabel 461); node/1279299304 (Avenida Santa Isabel 487)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 26 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0155",
+      "direccion": "SANTA LUCÍA N°199",
+      "rol": "",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6407704476007,
+        -33.44973287251941
+      ],
+      "despues": [
+        -70.64404735178887,
+        -33.441309774984646
+      ],
+      "desplazamiento_m": 984.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0166",
+      "referencias_osm": "node/1279504140 (Santa Lucía 200); node/1279504151 (Santa Lucía 100)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 76 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0156",
+      "direccion": "SANTA ROSA N°1165",
+      "rol": "3018-3",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64404735178887,
+        -33.441309774984646
+      ],
+      "despues": [
+        -70.64332976400942,
+        -33.460014512740415
+      ],
+      "desplazamiento_m": 2081.0,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0167",
+      "referencias_osm": "node/1262409671 (Avenida Santa Rosa 1175); node/1262409677 (Avenida Santa Rosa 1177)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 16 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0157",
+      "direccion": "SANTA ROSA N°1687 AL Nº1689",
+      "rol": "3459-7-8-9",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64332976400942,
+        -33.460014512740415
+      ],
+      "despues": [
+        -70.6426929911063,
+        -33.46787041623924
+      ],
+      "desplazamiento_m": 875.6,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0168",
+      "referencias_osm": "node/1262409598 (Avenida Santa Rosa 1701); node/1262409589 (Avenida Santa Rosa 1703)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 26 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0158",
+      "direccion": "SANTA ROSA N°601-5",
+      "rol": "696-1",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.6426929911063,
+        -33.46787041623924
+      ],
+      "despues": [
+        -70.64439118853024,
+        -33.45185638968973
+      ],
+      "desplazamiento_m": 1787.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0169",
+      "referencias_osm": "node/1279295250",
+      "distancia_numero_osm_m": 25.6,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0159",
+      "direccion": "SANTA ROSA Nº1675 AL Nº1679",
+      "rol": "3459-7-8-9",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64439118853024,
+        -33.45185638968973
+      ],
+      "despues": [
+        -70.64263114203938,
+        -33.46770946276073
+      ],
+      "desplazamiento_m": 1770.4,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0170",
+      "referencias_osm": "node/1262409598 (Avenida Santa Rosa 1701); node/1262409589 (Avenida Santa Rosa 1703)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 8 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0160",
+      "direccion": "SANTA ROSA Nº1701 AL Nº1727",
+      "rol": "3459-7-8-9",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64263114203938,
+        -33.46770946276073
+      ],
+      "despues": [
+        -70.64254829635519,
+        -33.46791837229026
+      ],
+      "desplazamiento_m": 24.5,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0171",
+      "referencias_osm": "node/1262409598; node/1262409603",
+      "distancia_numero_osm_m": 30.0,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0161",
+      "direccion": "SANTIAGO N°1350-98",
+      "rol": "3118-14",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64254829635519,
+        -33.46791837229026
+      ],
+      "despues": [
+        -70.65276570407867,
+        -33.462682284740815
+      ],
+      "desplazamiento_m": 1111.8,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0172",
+      "referencias_osm": "node/1262399686 (Santiago 1391); node/4458314591 (Santiago 1393)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 25 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0162",
+      "direccion": "SANTIAGO N°1368",
+      "rol": "3118-14",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65276570407867,
+        -33.462682284740815
+      ],
+      "despues": [
+        -70.65254854244407,
+        -33.46267674691425
+      ],
+      "desplazamiento_m": 20.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0173",
+      "referencias_osm": "node/1262399672 (Santiago 1355); node/1262399686 (Santiago 1391)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 30 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0163",
+      "direccion": "SANTO DOMINGO N°1254-N°1298",
+      "rol": "",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65254854244407,
+        -33.46267674691425
+      ],
+      "despues": [
+        -70.6553090563212,
+        -33.43668119694457
+      ],
+      "desplazamiento_m": 2902.0,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0174",
+      "referencias_osm": "node/1278536704 (Santo Domingo 1300); node/1278536505 (Santo Domingo 1301)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 20 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0164",
+      "direccion": "SANTO DOMINGO N°2005-11",
+      "rol": "220-11",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.6553090563212,
+        -33.43668119694457
+      ],
+      "despues": [
+        -70.66463554148923,
+        -33.43747894135915
+      ],
+      "desplazamiento_m": 869.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0175",
+      "referencias_osm": "node/3565419393",
+      "distancia_numero_osm_m": 41.8,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0165",
+      "direccion": "SANTO DOMINGO N°2006-2008",
+      "rol": "260-20",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.66463554148923,
+        -33.43747894135915
+      ],
+      "despues": [
+        -70.66464721252537,
+        -33.437740409076156
+      ],
+      "desplazamiento_m": 29.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0176",
+      "referencias_osm": "node/3568017277",
+      "distancia_numero_osm_m": 28.9,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0166",
+      "direccion": "SANTO DOMINGO N°2020",
+      "rol": "260-21",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66464721252537,
+        -33.437740409076156
+      ],
+      "despues": [
+        -70.6648202023296,
+        -33.43773419204274
+      ],
+      "desplazamiento_m": 16.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0177",
+      "referencias_osm": "node/1244483848 (Santo Domingo 2002); node/3568017277 (Santo Domingo 2006)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 22 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0167",
+      "direccion": "SANTO DOMINGO N°2020",
+      "rol": "260-21",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6648202023296,
+        -33.43773419204274
+      ],
+      "despues": [
+        -70.66512738879493,
+        -33.43774327057715
+      ],
+      "desplazamiento_m": 28.5,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0178",
+      "referencias_osm": "node/1244483848 (Santo Domingo 2002); node/3568017277 (Santo Domingo 2006)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 50 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0168",
+      "direccion": "SANTO DOMINGO N°2032",
+      "rol": "260-22",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66512738879493,
+        -33.43774327057715
+      ],
+      "despues": [
+        -70.66513321580207,
+        -33.437795418506006
+      ],
+      "desplazamiento_m": 5.8,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0179",
+      "referencias_osm": "node/1244483848 (Santo Domingo 2002); node/3568017277 (Santo Domingo 2006)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 52 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0169",
+      "direccion": "SANTO DOMINGO N°2040",
+      "rol": "260-23",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.66513321580207,
+        -33.437795418506006
+      ],
+      "despues": [
+        -70.66510378294196,
+        -33.43797658181683
+      ],
+      "desplazamiento_m": 20.3,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0180",
+      "referencias_osm": "node/1244483848 (Santo Domingo 2002); node/3568017277 (Santo Domingo 2006)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 57 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0170",
+      "direccion": "SANTO DOMINGO N°3676",
+      "rol": "282-05",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.66510378294196,
+        -33.43797658181683
+      ],
+      "despues": [
+        -70.68466827137198,
+        -33.43877070756091
+      ],
+      "desplazamiento_m": 1815.8,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0181",
+      "referencias_osm": "node/3087188841",
+      "distancia_numero_osm_m": 35.7,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0171",
+      "direccion": "SANTO DOMINGO N°3948",
+      "rol": "282-34",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.68466827137198,
+        -33.43877070756091
+      ],
+      "despues": [
+        -70.68895066025205,
+        -33.43893216205219
+      ],
+      "desplazamiento_m": 397.4,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0182",
+      "referencias_osm": "node/1271151594 (Santo Domingo 3998); node/1271151595 (Santo Domingo 3906)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 40 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0172",
+      "direccion": "SANTO DOMINGO N°916",
+      "rol": "182-33",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.68895066025205,
+        -33.43893216205219
+      ],
+      "despues": [
+        -70.65019730698596,
+        -33.436263579970586
+      ],
+      "desplazamiento_m": 3604.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0183",
+      "referencias_osm": "node/1278535821 (Santo Domingo 904); node/1278536436 (Santo Domingo 903)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 8 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0173",
+      "direccion": "SANTO DOMINGO Nº2398 - PALACIO ALAMOS",
+      "rol": "266-37",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65019730698596,
+        -33.436263579970586
+      ],
+      "despues": [
+        -70.67042084896153,
+        -33.43785195660568
+      ],
+      "desplazamiento_m": 1883.0,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0184",
+      "referencias_osm": "node/1244484157 (Santo Domingo 2400); node/1244483118 (Santo Domingo 2401)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 5 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0174",
+      "direccion": "SANTO DOMINGO Nº3800 (EX ENT. DEL METRO)",
+      "rol": "282-19",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67042084896153,
+        -33.43785195660568
+      ],
+      "despues": [
+        -70.68636950622775,
+        -33.43917063538133
+      ],
+      "desplazamiento_m": 1485.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0185",
+      "referencias_osm": "node/1264228683 (Santo Domingo 3876); node/1271151592 (Santo Domingo 3878)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 26 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0175",
+      "direccion": "SANTO DOMINGO Nº916 GALERIA VEINTIUNO DE MAYO Nº556 - LOCAL Nº21",
+      "rol": "182-25",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.68636950622775,
+        -33.43917063538133
+      ],
+      "despues": [
+        -70.65021232647881,
+        -33.436237060853976
+      ],
+      "desplazamiento_m": 3367.6,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0186",
+      "referencias_osm": "node/1278535821 (Santo Domingo 904); node/1278536436 (Santo Domingo 903)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 6 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0176",
+      "direccion": "SANTO DOMINGO Nº916 GALERIA VEINTIUNO DE MAYO Nº556 - LOCAL Nº23",
+      "rol": "182-27",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65021232647881,
+        -33.436237060853976
+      ],
+      "despues": [
+        -70.65010126047657,
+        -33.43643503145808
+      ],
+      "desplazamiento_m": 24.3,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0187",
+      "referencias_osm": "node/1278535821 (Santo Domingo 904); node/1279503948 (Santo Domingo 902)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 28 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0177",
+      "direccion": "SANTO DOMINGO Nº916 GALERIA VEINTIUNO DE MAYO Nº556 - LOCAL Nº25",
+      "rol": "",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.65010126047657,
+        -33.43643503145808
+      ],
+      "despues": [
+        -70.65026085191123,
+        -33.43636228677369
+      ],
+      "desplazamiento_m": 16.9,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0188",
+      "referencias_osm": "node/1278535821 (Santo Domingo 904); node/1278536436 (Santo Domingo 903)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 20 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0178",
+      "direccion": "SIERRA BELLA CON PLACER (FAJA TERRENO EFE)",
+      "rol": "s/i",
+      "accion": "CORREGIDO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.65026085191123,
+        -33.43636228677369
+      ],
+      "despues": [
+        -70.63246298154247,
+        -33.47362244079851
+      ],
+      "desplazamiento_m": 4459.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0189",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0179",
+      "direccion": "SOTOMAYOR N°42",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67245615043512,
+        -33.446258411570895
+      ],
+      "despues": [
+        -70.67245615043512,
+        -33.446258411570895
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. La referencia Looker no es unívoca por dirección/rol/destino; no se impone una coordenada por orden de filas."
+    },
+    {
+      "id": "IMS-0180",
+      "direccion": "SOTOMAYOR N°83",
+      "rol": "410-88",
+      "accion": "CORREGIDO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.63246298154247,
+        -33.47362244079851
+      ],
+      "despues": [
+        -70.67278935038472,
+        -33.4452062193965
+      ],
+      "desplazamiento_m": 4894.8,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0190",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0181",
+      "direccion": "SOTOMAYOR N°97",
+      "rol": "410-88",
+      "accion": "CORREGIDO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67278935038472,
+        -33.4452062193965
+      ],
+      "despues": [
+        -70.6728227868671,
+        -33.44474215331188
+      ],
+      "desplazamiento_m": 51.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0191",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    },
+    {
+      "id": "IMS-0182",
+      "direccion": "TOCORNAL N°1318",
+      "rol": "3071-18",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.6728227868671,
+        -33.44474215331188
+      ],
+      "despues": [
+        -70.63725306807343,
+        -33.4606605297308
+      ],
+      "desplazamiento_m": 3742.4,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0192",
+      "referencias_osm": "node/1262408801 (Manuel Antonio Tocornal 1320); node/1262408778 (Manuel Antonio Tocornal 1300)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 2 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0183",
+      "direccion": "TOCORNAL N°1917",
+      "rol": "3653-3",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63725306807343,
+        -33.4606605297308
+      ],
+      "despues": [
+        -70.63511761243731,
+        -33.47006432505931
+      ],
+      "desplazamiento_m": 1064.3,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0193",
+      "referencias_osm": "node/1262400016 (Manuel Antonio Tocornal 1899); node/1262408955 (Manuel Antonio Tocornal 1900)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 17 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0184",
+      "direccion": "TOCORNAL N°492",
+      "rol": "589-25",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63511761243731,
+        -33.47006432505931
+      ],
+      "despues": [
+        -70.64035773056186,
+        -33.449221143330945
+      ],
+      "desplazamiento_m": 2368.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0194",
+      "referencias_osm": "node/1279296847 (Manuel Antonio Tocornal 498); node/7619065567 (Manuel Antonio Tocornal 475)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 13 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0185",
+      "direccion": "TOCORNAL Nº1445",
+      "rol": "3137-1",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64035773056186,
+        -33.449221143330945
+      ],
+      "despues": [
+        -70.63671747305905,
+        -33.463276475512885
+      ],
+      "desplazamiento_m": 1599.0,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0195",
+      "referencias_osm": "node/1262399981 (Manuel Antonio Tocornal 1451); node/1262408806 (Manuel Antonio Tocornal 1452)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 8 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0186",
+      "direccion": "UNION LATINOAMERICANA Nº602",
+      "rol": "891-1",
+      "accion": "CORREGIDO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.63671747305905,
+        -33.463276475512885
+      ],
+      "despues": [
+        -70.67242164836381,
+        -33.45685929218755
+      ],
+      "desplazamiento_m": 3385.8,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0196",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente. Punto asociado al rol compartido 891-1 / complejo Abate Molina; acceso por Unión Latinoamericana pendiente de validación."
+    },
+    {
+      "id": "IMS-0187",
+      "direccion": "UNION LATINOAMERICANA Nº636",
+      "rol": "891-1",
+      "accion": "CORREGIDO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67242164836381,
+        -33.45685929218755
+      ],
+      "despues": [
+        -70.67238710016645,
+        -33.45702028079459
+      ],
+      "desplazamiento_m": 18.2,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0197",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente. Punto asociado al rol compartido 891-1 / complejo Abate Molina; acceso por Unión Latinoamericana pendiente de validación."
+    },
+    {
+      "id": "IMS-0188",
+      "direccion": "UNION LATINOAMERICANA Nº648",
+      "rol": "891-1",
+      "accion": "CORREGIDO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67238710016645,
+        -33.45702028079459
+      ],
+      "despues": [
+        -70.67238561123024,
+        -33.45707825634971
+      ],
+      "desplazamiento_m": 6.4,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0198",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente. Punto asociado al rol compartido 891-1 / complejo Abate Molina; acceso por Unión Latinoamericana pendiente de validación."
+    },
+    {
+      "id": "IMS-0189",
+      "direccion": "UNION LATINOAMERICANA Nº658",
+      "rol": "891-1",
+      "accion": "CORREGIDO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67238561123024,
+        -33.45707825634971
+      ],
+      "despues": [
+        -70.67234785355836,
+        -33.457145994141136
+      ],
+      "desplazamiento_m": 8.3,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0199",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente. Punto asociado al rol compartido 891-1 / complejo Abate Molina; acceso por Unión Latinoamericana pendiente de validación."
+    },
+    {
+      "id": "IMS-0190",
+      "direccion": "UNION LATINOAMERICANA Nº666",
+      "rol": "891-1",
+      "accion": "CORREGIDO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67234785355836,
+        -33.457145994141136
+      ],
+      "despues": [
+        -70.67228587037566,
+        -33.45746769320169
+      ],
+      "desplazamiento_m": 36.2,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0200",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente. Punto asociado al rol compartido 891-1 / complejo Abate Molina; acceso por Unión Latinoamericana pendiente de validación."
+    },
+    {
+      "id": "IMS-0191",
+      "direccion": "UNION LATINOAMERICANA Nº686",
+      "rol": "891-1",
+      "accion": "CORREGIDO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.67228587037566,
+        -33.45746769320169
+      ],
+      "despues": [
+        -70.67230511123023,
+        -33.457464129999195
+      ],
+      "desplazamiento_m": 1.8,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0201",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente. Punto asociado al rol compartido 891-1 / complejo Abate Molina; acceso por Unión Latinoamericana pendiente de validación."
+    },
+    {
+      "id": "IMS-0192",
+      "direccion": "VENTURA LAVALLE 450-490 ARTEMIO GUTIERREZ 1218",
+      "rol": "3048-21",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67230511123023,
+        -33.457464129999195
+      ],
+      "despues": [
+        -70.63728922137335,
+        -33.45898985443646
+      ],
+      "desplazamiento_m": 3250.4,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0202",
+      "referencias_osm": "node/1262411186 (Ventura Lavalle 434); node/1262410360 (Ventura Lavalle 433)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 21 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0193",
+      "direccion": "VICTOR MANUEL Nº1860",
+      "rol": "3687-37",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.63728922137335,
+        -33.45898985443646
+      ],
+      "despues": [
+        -70.64066210298948,
+        -33.4697559076818
+      ],
+      "desplazamiento_m": 1237.3,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0203",
+      "referencias_osm": "node/1262410276 (Víctor Manuel 1900); node/1262411909 (Víctor Manuel 1899)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 51 m. OSM no confirma el número exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0194",
+      "direccion": "WALDO SILVA Nº2185",
+      "rol": "3761-9",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.64066210298948,
+        -33.4697559076818
+      ],
+      "despues": [
+        -70.65168106809901,
+        -33.474393340953306
+      ],
+      "desplazamiento_m": 1144.2,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0204",
+      "referencias_osm": "node/3567985517",
+      "distancia_numero_osm_m": 8.3,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto. Dirección SII distinta de la municipal; no se utiliza para trasladar el inmueble automáticamente."
+    },
+    {
+      "id": "IMS-0195",
+      "direccion": "YUNGAY Nº2750",
+      "rol": "70-60",
+      "accion": "CORREGIDO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.65168106809901,
+        -33.474393340953306
+      ],
+      "despues": [
+        -70.67477704554946,
+        -33.429145465122446
+      ],
+      "desplazamiento_m": 5468.1,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0205",
+      "referencias_osm": "node/3568006442",
+      "distancia_numero_osm_m": 34.4,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0196",
+      "direccion": "ZENTENO N°1695",
+      "rol": "3477-19",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.67477704554946,
+        -33.429145465122446
+      ],
+      "despues": [
+        -70.64988307048075,
+        -33.468645393215525
+      ],
+      "desplazamiento_m": 4961.7,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0206",
+      "referencias_osm": "node/1262405045 (Zenteno 1699); node/1262405073 (Zenteno 1701)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 18 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0197",
+      "direccion": "ZENTENO N°1695",
+      "rol": "3477-19",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64988307048075,
+        -33.468645393215525
+      ],
+      "despues": [
+        -70.64970671523994,
+        -33.468541910358994
+      ],
+      "desplazamiento_m": 20.0,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0207",
+      "referencias_osm": "node/1262405045 (Zenteno 1699); node/1262402094 (Zenteno 1700)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 9 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0198",
+      "direccion": "ZENTENO N°801 - 803-811-17",
+      "rol": "332374",
+      "accion": "CORREGIDO",
+      "contraste_osm": "CALLE_OSM_CERCANA_NUMERO_NO_CONFIRMADO",
+      "antes": [
+        -70.64970671523994,
+        -33.468541910358994
+      ],
+      "despues": [
+        -70.65138443866614,
+        -33.45578384598411
+      ],
+      "desplazamiento_m": 1427.2,
+      "fuente": "v2.Catastro Propiedades Municipales_(looker).xlsx",
+      "id_fuente": "IMS-0208",
+      "referencias_osm": "node/1278191648 (Zenteno 821); node/3568011999 (Zenteno 821)",
+      "distancia_numero_osm_m": null,
+      "observacion": "Restituida coordenada del catastro Looker por dirección, rol y destino; corregido desfase de registros. Referencia de la misma calle a 2 m. OSM no confirma el número exacto."
+    },
+    {
+      "id": "IMS-0199",
+      "direccion": "ZENTENO Nº820-830 (EX CALLE GÁLVEZ)",
+      "rol": "2808-18",
+      "accion": "CONSERVADO",
+      "contraste_osm": "NUMERACION_OSM_COINCIDENTE",
+      "antes": [
+        -70.65138443866614,
+        -33.45578384598411
+      ],
+      "despues": [
+        -70.65138443866614,
+        -33.45578384598411
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "node/1278192039",
+      "distancia_numero_osm_m": 33.9,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Coincidencia calle y número OSM. El punto puede representar el predio y no su acceso exacto."
+    },
+    {
+      "id": "IMS-0200",
+      "direccion": "ZENTENO/SARGENTO ALDEA",
+      "rol": "",
+      "accion": "CONSERVADO",
+      "contraste_osm": "SIN_REFERENCIA_OSM_SUFICIENTE",
+      "antes": [
+        -70.64983474500977,
+        -33.46855393481472
+      ],
+      "despues": [
+        -70.64983474500977,
+        -33.46855393481472
+      ],
+      "desplazamiento_m": 0.0,
+      "fuente": "Visor v18",
+      "id_fuente": "",
+      "referencias_osm": "",
+      "distancia_numero_osm_m": null,
+      "observacion": "Sin desplazamiento confirmado; se conserva la coordenada. Sin numeración utilizable para esta calle en el extracto OSM comunal del 31-07-2026."
+    }
+  ]
+}
