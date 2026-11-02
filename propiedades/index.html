@@ -65,7 +65,7 @@ input[type=text]{width:100%;box-sizing:border-box;padding:8px;border:1px solid #
 </style>
 </head><body><div id="app">
 <header>
-<div class="brand"><div class="brandmark">STGO</div><div class="brandtxt"><h1>Banco de Suelos · Visor de Propiedades</h1><b>Ilustre Municipalidad de Santiago</b><span>Subdirección de Planificación y Sustentabilidad · Oficina de Planificación</span><small>Versión 17 · actualización Salud y Educación · noviembre 2026</small></div></div>
+<div class="brand"><div class="brandmark">STGO</div><div class="brandtxt"><h1>Banco de Suelos · Visor de Propiedades</h1><b>Ilustre Municipalidad de Santiago</b><span>Subdirección de Planificación y Sustentabilidad · Oficina de Planificación</span><small>Versión 18 · actualización Salud y Educación · noviembre 2026</small></div></div>
 <nav><button class="tab active">Mapa</button><button class="tab">Dashboard</button><button class="tab">Priorización</button><button class="tab">Gestión</button></nav>
 </header>
 <aside>
@@ -141,7 +141,7 @@ input[type=text]{width:100%;box-sizing:border-box;padding:8px;border:1px solid #
 </aside>
 <div id="map"></div>
 <aside id="detail"><h2 style="font-size:17px;margin:0">Inmuebles visibles</h2><div class="muted">Seleccione una fila o un inmueble en el mapa.</div>
-<div id="detailBody"><div class="detail-card"><div class="muted">Cargando tabla de inmuebles visibles…</div></div></div><div style="margin-top:15px"><button id="backToTable" class="btn" type="button">Ver tabla</button> <button class="btn" onclick="window.print()">Imprimir ficha / PDF</button></div>
+<div style="display:flex;gap:6px;flex-wrap:wrap;margin:10px 0"><button id="downloadVisible" class="btn" type="button">Descargar tabla visible (CSV)</button><button id="downloadActive" class="btn" type="button">Descargar capas activas (CSV)</button><small id="downloadStatus" role="status" aria-live="polite" style="width:100%">CSV compatible con Excel · todos los atributos disponibles.</small></div><div id="detailBody"><div class="detail-card"><div class="muted">Cargando tabla de inmuebles visibles…</div></div></div><div style="margin-top:15px"><button id="backToTable" class="btn" type="button">Ver tabla</button> <button class="btn" onclick="window.print()">Imprimir ficha / PDF</button></div>
 <div class="printMeta"><b>ILUSTRE MUNICIPALIDAD DE SANTIAGO</b><br>Subdirección de Planificación y Sustentabilidad<br>Oficina de Planificación<br><br><b>Leyenda</b><div id="printLegend"></div></div>
 <div class="notice">Propiedades representadas únicamente mediante puntos georreferenciados. Las capas PRC permanecen como contexto territorial independiente.</div></aside></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -246,8 +246,8 @@ function renderPropertyTable(){
 }
 function onFeature(f,l){l.bindTooltip(tooltip(f.properties),{sticky:true,direction:'top'});l.on('click',()=>showDetail(f.properties));}
 
-let mun=L.geoJSON(D.municipales,{style:styleProp,onEachFeature:onFeature}).addTo(map);
-let fis=L.geoJSON(D.fiscales,{style:styleProp,onEachFeature:onFeature}).addTo(map); fis.bringToFront();
+let mun=L.geoJSON(D.municipales,{style:styleProp,onEachFeature:onFeature});
+let fis=L.geoJSON(D.fiscales,{style:styleProp,onEachFeature:onFeature});
 let mp=L.geoJSON(D.municipalesPuntos,{pointToLayer:(f,ll)=>L.circleMarker(ll,pointStyle(f.properties)),onEachFeature:onFeature}).addTo(map);
 let fp=L.geoJSON(D.fiscalesPuntos,{pointToLayer:(f,ll)=>L.circleMarker(ll,pointStyle(f.properties)),onEachFeature:onFeature}).addTo(map);
 let pp=L.geoJSON(PRIV,{pointToLayer:(f,ll)=>L.circleMarker(ll,pointStyle(f.properties)),onEachFeature:onFeature}).addTo(map);
@@ -261,6 +261,34 @@ function registerGroup(group){group.eachLayer(l=>{if(l.feature&&l.feature.proper
 [mp,fp,pp,saludDISAL,educacionMunicipal].forEach(registerGroup);
 map.on('moveend zoomend',()=>renderPropertyTable());
 document.getElementById('backToTable').addEventListener('click',()=>renderPropertyTable());
+
+function exportDataCSV(visibleOnly){
+ const seen=new Set();
+ const entries=propertyEntries.filter(e=>{
+  if(!map.hasLayer(e.group)||e.layer.options.opacity===0||(visibleOnly&&!layerVisibleInMap(e)))return false;
+  const key=String(e.props.tipo||'')+'|'+String(e.props.id||e.props.direccion||'');
+  if(seen.has(key))return false;seen.add(key);return true;
+ });
+ const status=document.getElementById('downloadStatus');
+ if(!entries.length){status.textContent='No hay datos para descargar con la selección actual.';return;}
+ const preferred=['tipo','id','nombre','direccion','rol','barrio','territorio','uso_actual','destino','tipologia','propietario','administracion','precio','moneda'];
+ const keys=new Set(entries.flatMap(e=>Object.keys(e.props)));
+ const columns=[...preferred.filter(k=>keys.has(k)),...Array.from(keys).filter(k=>!preferred.includes(k)).sort(),'latitud_punto','longitud_punto'];
+ function cell(value){
+  let text=value==null?'':typeof value==='object'?JSON.stringify(value):String(value);
+  if(typeof value==='string'&&/^[\s]*[=+@-]/.test(text))text="'"+text;
+  return '"'+text.replace(/"/g,'""')+'"';
+ }
+ const rows=entries.map(e=>{const ll=e.layer.getLatLng();const row={...e.props,latitud_punto:ll.lat,longitud_punto:ll.lng};return columns.map(k=>cell(row[k])).join(';');});
+ const csv='\uFEFF'+[columns.map(cell).join(';'),...rows].join('\r\n')+'\r\n';
+ const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8;'}));
+ const link=document.createElement('a');link.href=url;link.download='Propiedades_v18_'+(visibleOnly?'tabla_visible':'capas_activas')+'_'+new Date().toISOString().slice(0,10)+'.csv';
+ document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ status.textContent='Descargados '+entries.length+' registros con '+columns.length+' columnas. Se respetan las capas y filtros activos.';
+}
+document.getElementById('downloadVisible').addEventListener('click',()=>exportDataCSV(true));
+document.getElementById('downloadActive').addEventListener('click',()=>exportDataCSV(false));
+
 setTimeout(renderPropertyTable,0);
 document.getElementById('chkMunPts').addEventListener('change',e=>{e.target.checked?mp.addTo(map):map.removeLayer(mp);renderPropertyTable();});
 document.getElementById('chkFisPts').addEventListener('change',e=>{e.target.checked?fp.addTo(map):map.removeLayer(fp);renderPropertyTable();});
@@ -345,6 +373,6 @@ document.getElementById('munFilterValue').addEventListener('change',applyCoverag
 document.getElementById('fisFilterValue').addEventListener('change',applyCoverageFilters);
 populateFilterValues('mun');populateFilterValues('fis');
 document.getElementById('search').addEventListener('change',e=>{const q=e.target.value.trim().toLowerCase();if(!q)return;let found=null;
-[mun,fis,pp,saludDISAL,educacionMunicipal].some(g=>{g.eachLayer(l=>{const p=l.feature.properties;const s=[p.id,p.direccion,p.rol,p.nombre,p.beneficiario,p.fuente,p.tipologia].join(' ').toLowerCase();if(!found&&s.includes(q))found=l;});return !!found});
+[mp,fp,pp,saludDISAL,educacionMunicipal].some(g=>{g.eachLayer(l=>{const p=l.feature.properties;const s=[p.id,p.direccion,p.rol,p.nombre,p.beneficiario,p.fuente,p.tipologia].join(' ').toLowerCase();if(!found&&s.includes(q))found=l;});return !!found});
 if(found){if(found.getBounds)map.fitBounds(found.getBounds(),{maxZoom:18});else if(found.getLatLng)map.setView(found.getLatLng(),18);found.fire('click');}});
 </script></body></html>
