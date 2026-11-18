@@ -352,4 +352,4 @@ document.getElementById('outside').innerHTML=D.fueraSantiago.map(p=>`<div class=
 document.getElementById('search').addEventListener('change',e=>{const q=e.target.value.trim().toLowerCase();if(!q)return;let found=null;
 [mp,fp,pp,saludDISAL,educacionMunicipal].some(g=>{g.eachLayer(l=>{const p=l.feature.properties;const s=[p.id,p.direccion,p.rol,p.nombre,p.beneficiario,p.fuente,p.tipologia].join(' ').toLowerCase();if(!found&&s.includes(q))found=l;});return !!found});
 if(found){if(found.getBounds)map.fitBounds(found.getBounds(),{maxZoom:18});else if(found.getLatLng)map.setView(found.getLatLng(),18);found.fire('click');}});
-</script></body></html>
+</script><script defer src="https://phdgeografo.github.io/GIS-STGO/assets/layout-export.js?v=1.2"></script></body></html>
